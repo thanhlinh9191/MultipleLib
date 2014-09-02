@@ -10,14 +10,14 @@
 	<string>MultipleLib</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>17E4D2554C9FA37B54B106421508AF5D1325BBC2</key>
+		<key>C60CFCF198A780056592C391C0E4482C9EA3897B</key>
 		<string>https://github.com/thanhlinh9191/MultipleLib</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MultipleLib.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>17E4D2554C9FA37B54B106421508AF5D1325BBC2</key>
+		<key>C60CFCF198A780056592C391C0E4482C9EA3897B</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>17E4D2554C9FA37B54B106421508AF5D1325BBC2</string>
+	<string>C60CFCF198A780056592C391C0E4482C9EA3897B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>17E4D2554C9FA37B54B106421508AF5D1325BBC2</string>
+			<string>C60CFCF198A780056592C391C0E4482C9EA3897B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MultipleLib</string>
 		</dict>
