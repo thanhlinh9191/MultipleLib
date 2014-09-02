@@ -2477,5 +2477,81 @@
             location = "group:CandySearch.xcodeproj">
          </FileRef>
       </Group>
+      <Group
+         location = "group:CustomNavBar"
+         name = "CustomNavBar">
+         <Group
+            location = "group:CustomNavBar"
+            name = "CustomNavBar">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:CustomNavBar-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:CustomNavBar-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default@2x.png">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+               <FileRef
+                  location = "group:MainStoryboard.storyboard">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:images"
+               name = "images">
+               <FileRef
+                  location = "group:button_back.png">
+               </FileRef>
+               <FileRef
+                  location = "group:button_normal.png">
+               </FileRef>
+               <FileRef
+                  location = "group:common_bg.png">
+               </FileRef>
+               <FileRef
+                  location = "group:common_bg@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:mushroom_risotto.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:navbar_bg.png">
+               </FileRef>
+               <FileRef
+                  location = "group:navbar_bg@2x.png">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:CustomNavBar.xcodeproj">
+         </FileRef>
+      </Group>
    </Group>
 </Workspace>

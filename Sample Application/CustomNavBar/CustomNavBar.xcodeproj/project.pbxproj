@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F445DF21168EF914002A89BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F445DF20168EF914002A89BD /* UIKit.framework */; };
+		F445DF23168EF914002A89BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F445DF22168EF914002A89BD /* Foundation.framework */; };
+		F445DF25168EF914002A89BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F445DF24168EF914002A89BD /* CoreGraphics.framework */; };
+		F445DF2B168EF914002A89BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F445DF29168EF914002A89BD /* InfoPlist.strings */; };
+		F445DF2D168EF914002A89BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F445DF2C168EF914002A89BD /* main.m */; };
+		F445DF31168EF914002A89BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F445DF30168EF914002A89BD /* AppDelegate.m */; };
+		F445DF33168EF914002A89BD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F445DF32168EF914002A89BD /* Default.png */; };
+		F445DF35168EF914002A89BD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F445DF34168EF914002A89BD /* Default@2x.png */; };
+		F445DF37168EF914002A89BD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F445DF36168EF914002A89BD /* Default-568h@2x.png */; };
+		F445DF3A168EF914002A89BD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F445DF38168EF914002A89BD /* MainStoryboard.storyboard */; };
+		F445DF4B168F48F4002A89BD /* common_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F445DF47168F48F4002A89BD /* common_bg.png */; };
+		F445DF4C168F48F4002A89BD /* common_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F445DF48168F48F4002A89BD /* common_bg@2x.png */; };
+		F445DF4D168F48F4002A89BD /* navbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F445DF49168F48F4002A89BD /* navbar_bg.png */; };
+		F445DF4E168F48F4002A89BD /* navbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F445DF4A168F48F4002A89BD /* navbar_bg@2x.png */; };
+		F445DF51168FEE69002A89BD /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F445DF50168FEE69002A89BD /* RecipeViewController.m */; };
+		F445DF58168FF97E002A89BD /* button_back.png in Resources */ = {isa = PBXBuildFile; fileRef = F445DF56168FF97E002A89BD /* button_back.png */; };
+		F445DF59168FF97E002A89BD /* button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F445DF57168FF97E002A89BD /* button_normal.png */; };
+		F445DF5B16903A61002A89BD /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F445DF5A16903A61002A89BD /* mushroom_risotto.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F445DF1C168EF914002A89BD /* CustomNavBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F445DF20168EF914002A89BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F445DF22168EF914002A89BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F445DF24168EF914002A89BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F445DF28168EF914002A89BD /* CustomNavBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomNavBar-Info.plist"; sourceTree = "<group>"; };
+		F445DF2A168EF914002A89BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F445DF2C168EF914002A89BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F445DF2E168EF914002A89BD /* CustomNavBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomNavBar-Prefix.pch"; sourceTree = "<group>"; };
+		F445DF2F168EF914002A89BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F445DF30168EF914002A89BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F445DF32168EF914002A89BD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F445DF34168EF914002A89BD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F445DF36168EF914002A89BD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F445DF39168EF914002A89BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F445DF47168F48F4002A89BD /* common_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = common_bg.png; path = images/common_bg.png; sourceTree = "<group>"; };
+		F445DF48168F48F4002A89BD /* common_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "common_bg@2x.png"; path = "images/common_bg@2x.png"; sourceTree = "<group>"; };
+		F445DF49168F48F4002A89BD /* navbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navbar_bg.png; path = images/navbar_bg.png; sourceTree = "<group>"; };
+		F445DF4A168F48F4002A89BD /* navbar_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "navbar_bg@2x.png"; path = "images/navbar_bg@2x.png"; sourceTree = "<group>"; };
+		F445DF4F168FEE69002A89BD /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
+		F445DF50168FEE69002A89BD /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
+		F445DF56168FF97E002A89BD /* button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_back.png; path = images/button_back.png; sourceTree = "<group>"; };
+		F445DF57168FF97E002A89BD /* button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_normal.png; path = images/button_normal.png; sourceTree = "<group>"; };
+		F445DF5A16903A61002A89BD /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mushroom_risotto.jpg; path = images/mushroom_risotto.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F445DF19168EF914002A89BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F445DF21168EF914002A89BD /* UIKit.framework in Frameworks */,
+				F445DF23168EF914002A89BD /* Foundation.framework in Frameworks */,
+				F445DF25168EF914002A89BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F445DF11168EF914002A89BD = {
+			isa = PBXGroup;
+			children = (
+				F445DF26168EF914002A89BD /* CustomNavBar */,
+				F445DF1F168EF914002A89BD /* Frameworks */,
+				F445DF1D168EF914002A89BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F445DF1D168EF914002A89BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F445DF1C168EF914002A89BD /* CustomNavBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F445DF1F168EF914002A89BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F445DF20168EF914002A89BD /* UIKit.framework */,
+				F445DF22168EF914002A89BD /* Foundation.framework */,
+				F445DF24168EF914002A89BD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F445DF26168EF914002A89BD /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				F445DF5A16903A61002A89BD /* mushroom_risotto.jpg */,
+				F445DF56168FF97E002A89BD /* button_back.png */,
+				F445DF57168FF97E002A89BD /* button_normal.png */,
+				F445DF47168F48F4002A89BD /* common_bg.png */,
+				F445DF48168F48F4002A89BD /* common_bg@2x.png */,
+				F445DF49168F48F4002A89BD /* navbar_bg.png */,
+				F445DF4A168F48F4002A89BD /* navbar_bg@2x.png */,
+				F445DF2F168EF914002A89BD /* AppDelegate.h */,
+				F445DF30168EF914002A89BD /* AppDelegate.m */,
+				F445DF38168EF914002A89BD /* MainStoryboard.storyboard */,
+				F445DF27168EF914002A89BD /* Supporting Files */,
+				F445DF4F168FEE69002A89BD /* RecipeViewController.h */,
+				F445DF50168FEE69002A89BD /* RecipeViewController.m */,
+			);
+			path = CustomNavBar;
+			sourceTree = "<group>";
+		};
+		F445DF27168EF914002A89BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F445DF28168EF914002A89BD /* CustomNavBar-Info.plist */,
+				F445DF29168EF914002A89BD /* InfoPlist.strings */,
+				F445DF2C168EF914002A89BD /* main.m */,
+				F445DF2E168EF914002A89BD /* CustomNavBar-Prefix.pch */,
+				F445DF32168EF914002A89BD /* Default.png */,
+				F445DF34168EF914002A89BD /* Default@2x.png */,
+				F445DF36168EF914002A89BD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F445DF1B168EF914002A89BD /* CustomNavBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F445DF40168EF914002A89BD /* Build configuration list for PBXNativeTarget "CustomNavBar" */;
+			buildPhases = (
+				F445DF18168EF914002A89BD /* Sources */,
+				F445DF19168EF914002A89BD /* Frameworks */,
+				F445DF1A168EF914002A89BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomNavBar;
+			productName = CustomNavBar;
+			productReference = F445DF1C168EF914002A89BD /* CustomNavBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F445DF13168EF914002A89BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Appcoda;
+			};
+			buildConfigurationList = F445DF16168EF914002A89BD /* Build configuration list for PBXProject "CustomNavBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F445DF11168EF914002A89BD;
+			productRefGroup = F445DF1D168EF914002A89BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F445DF1B168EF914002A89BD /* CustomNavBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F445DF1A168EF914002A89BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F445DF2B168EF914002A89BD /* InfoPlist.strings in Resources */,
+				F445DF33168EF914002A89BD /* Default.png in Resources */,
+				F445DF35168EF914002A89BD /* Default@2x.png in Resources */,
+				F445DF37168EF914002A89BD /* Default-568h@2x.png in Resources */,
+				F445DF3A168EF914002A89BD /* MainStoryboard.storyboard in Resources */,
+				F445DF4B168F48F4002A89BD /* common_bg.png in Resources */,
+				F445DF4C168F48F4002A89BD /* common_bg@2x.png in Resources */,
+				F445DF4D168F48F4002A89BD /* navbar_bg.png in Resources */,
+				F445DF4E168F48F4002A89BD /* navbar_bg@2x.png in Resources */,
+				F445DF58168FF97E002A89BD /* button_back.png in Resources */,
+				F445DF59168FF97E002A89BD /* button_normal.png in Resources */,
+				F445DF5B16903A61002A89BD /* mushroom_risotto.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F445DF18168EF914002A89BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F445DF2D168EF914002A89BD /* main.m in Sources */,
+				F445DF31168EF914002A89BD /* AppDelegate.m in Sources */,
+				F445DF51168FEE69002A89BD /* RecipeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F445DF29168EF914002A89BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F445DF2A168EF914002A89BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F445DF38168EF914002A89BD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F445DF39168EF914002A89BD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F445DF3E168EF914002A89BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F445DF3F168EF914002A89BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F445DF41168EF914002A89BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomNavBar/CustomNavBar-Prefix.pch";
+				INFOPLIST_FILE = "CustomNavBar/CustomNavBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F445DF42168EF914002A89BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomNavBar/CustomNavBar-Prefix.pch";
+				INFOPLIST_FILE = "CustomNavBar/CustomNavBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F445DF16168EF914002A89BD /* Build configuration list for PBXProject "CustomNavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F445DF3E168EF914002A89BD /* Debug */,
+				F445DF3F168EF914002A89BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F445DF40168EF914002A89BD /* Build configuration list for PBXNativeTarget "CustomNavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F445DF41168EF914002A89BD /* Debug */,
+				F445DF42168EF914002A89BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F445DF13168EF914002A89BD /* Project object */;
+}
