@@ -2478,6 +2478,232 @@
          </FileRef>
       </Group>
       <Group
+         location = "group:SimpleTable-customCell"
+         name = "SimpleTable-customCell">
+         <FileRef
+            location = "group:MyLaunchImage.png">
+         </FileRef>
+         <FileRef
+            location = "group:MyLaunchImage@2x.png">
+         </FileRef>
+         <Group
+            location = "group:SimpleTable"
+            name = "SimpleTable">
+            <FileRef
+               location = "group:angry_birds_cake.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:creme_brelee.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:egg_benedict.jpg">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+               <FileRef
+                  location = "group:SimpleTableViewController.xib">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:full_breakfast.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:green_tea.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:ham_and_cheese_panini.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:ham_and_egg_sandwich.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:hamburger.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:instant_noodle_with_egg.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:japanese_noodle_with_pork.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:mushroom_risotto.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:noodle_with_bbq_pork.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:recipes.plist">
+            </FileRef>
+            <FileRef
+               location = "group:recipes.plist.zip">
+            </FileRef>
+            <FileRef
+               location = "group:SimpleTable-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:SimpleTable-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:SimpleTableAppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:SimpleTableAppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:SimpleTableCell.h">
+            </FileRef>
+            <FileRef
+               location = "group:SimpleTableCell.m">
+            </FileRef>
+            <FileRef
+               location = "group:SimpleTableCell.xib">
+            </FileRef>
+            <FileRef
+               location = "group:SimpleTableViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:SimpleTableViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:starbucks_coffee.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:thai_shrimp_cake.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:vegetable_curry.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:white_chocolate_donut.jpg">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:SimpleTable.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:CustomTableViewFinal"
+         name = "CustomTableViewFinal">
+         <Group
+            location = "group:CustomTableView"
+            name = "CustomTableView">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:CustomTableView-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:CustomTableView-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default@2x.png">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+               <FileRef
+                  location = "group:MainStoryboard.storyboard">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:images"
+               name = "images">
+               <FileRef
+                  location = "group:button_back.png">
+               </FileRef>
+               <FileRef
+                  location = "group:button_normal.png">
+               </FileRef>
+               <FileRef
+                  location = "group:cell_bottom.png">
+               </FileRef>
+               <FileRef
+                  location = "group:cell_bottom@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:cell_middle.png">
+               </FileRef>
+               <FileRef
+                  location = "group:cell_middle@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:cell_top.png">
+               </FileRef>
+               <FileRef
+                  location = "group:cell_top@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:cell_top_tile.png">
+               </FileRef>
+               <FileRef
+                  location = "group:common_bg.png">
+               </FileRef>
+               <FileRef
+                  location = "group:common_bg@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:egg_benedict.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:full_breakfast.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:ham_and_egg_sandwich.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:hamburger.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:mushroom_risotto.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:navbar_bg.png">
+               </FileRef>
+               <FileRef
+                  location = "group:navbar_bg@2x.png">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:Recipe.h">
+            </FileRef>
+            <FileRef
+               location = "group:Recipe.m">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:CustomTableView.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:CustomNavBar"
          name = "CustomNavBar">
          <Group
