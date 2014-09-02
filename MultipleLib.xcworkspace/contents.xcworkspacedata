@@ -1,0 +1,2477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Sample Library"
+      name = "Sample Library">
+      <Group
+         location = "group:Mogenerator"
+         name = "Mogenerator">
+         <FileRef
+            location = "group:mogenerator-1.27.dmg">
+         </FileRef>
+         <FileRef
+            location = "group:MyCoreDataApp/MyCoreDataApp.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:MagicalRecord-master"
+         name = "MagicalRecord-master">
+         <FileRef
+            location = "group:Changelog.md">
+         </FileRef>
+         <Group
+            location = "group:Docs"
+            name = "Docs">
+            <FileRef
+               location = "group:DefaultManagedObjectContext.md">
+            </FileRef>
+            <FileRef
+               location = "group:Fetching.md">
+            </FileRef>
+            <FileRef
+               location = "group:GettingStarted.md">
+            </FileRef>
+            <FileRef
+               location = "group:iCloud.md">
+            </FileRef>
+            <FileRef
+               location = "group:Importing.md">
+            </FileRef>
+            <FileRef
+               location = "group:Installation.md">
+            </FileRef>
+            <FileRef
+               location = "group:Logging.md">
+            </FileRef>
+            <FileRef
+               location = "group:Resources.md">
+            </FileRef>
+            <FileRef
+               location = "group:Saving.md">
+            </FileRef>
+            <FileRef
+               location = "group:Support.md">
+            </FileRef>
+            <FileRef
+               location = "group:Threads.md">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <Group
+            location = "group:MagicalRecord"
+            name = "MagicalRecord">
+            <Group
+               location = "group:Categories"
+               name = "Categories">
+               <Group
+                  location = "group:DataImport"
+                  name = "DataImport">
+                  <FileRef
+                     location = "group:MagicalImportFunctions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MagicalImportFunctions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSAttributeDescription+MagicalDataImport.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSAttributeDescription+MagicalDataImport.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSEntityDescription+MagicalDataImport.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSEntityDescription+MagicalDataImport.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSNumber+MagicalDataImport.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSNumber+MagicalDataImport.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSObject+MagicalDataImport.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSObject+MagicalDataImport.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSRelationshipDescription+MagicalDataImport.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSRelationshipDescription+MagicalDataImport.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSString+MagicalDataImport.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSString+MagicalDataImport.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:NSManagedObject"
+                  name = "NSManagedObject">
+                  <FileRef
+                     location = "group:NSManagedObject+MagicalAggregation.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObject+MagicalAggregation.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObject+MagicalDataImport.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObject+MagicalDataImport.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObject+MagicalFinders.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObject+MagicalFinders.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObject+MagicalRecord.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObject+MagicalRecord.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObject+MagicalRequests.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObject+MagicalRequests.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:NSManagedObjectContext"
+                  name = "NSManagedObjectContext">
+                  <FileRef
+                     location = "group:NSManagedObjectContext+MagicalObserving.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObjectContext+MagicalObserving.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObjectContext+MagicalRecord.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObjectContext+MagicalRecord.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObjectContext+MagicalSaves.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObjectContext+MagicalSaves.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObjectContext+MagicalThreading.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObjectContext+MagicalThreading.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:NSManagedObjectModel+MagicalRecord.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSManagedObjectModel+MagicalRecord.m">
+               </FileRef>
+               <FileRef
+                  location = "group:NSPersistentStore+MagicalRecord.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSPersistentStore+MagicalRecord.m">
+               </FileRef>
+               <FileRef
+                  location = "group:NSPersistentStoreCoordinator+MagicalRecord.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSPersistentStoreCoordinator+MagicalRecord.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Core"
+               name = "Core">
+               <FileRef
+                  location = "group:MagicalRecord+Actions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord+Actions.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord+ErrorHandling.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord+ErrorHandling.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord+iCloud.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord+iCloud.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord+Options.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord+Options.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord+Setup.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord+Setup.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord+ShorthandSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord+ShorthandSupport.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecordShorthand.h">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:CoreData+MagicalRecord.h">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:MagicalRecord.podspec">
+         </FileRef>
+         <Group
+            location = "group:Project Files"
+            name = "Project Files">
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:generateShorthandFile.rb">
+            </FileRef>
+            <Group
+               location = "group:Library"
+               name = "Library">
+               <Group
+                  location = "group:Support"
+                  name = "Support">
+                  <FileRef
+                     location = "group:MagicalRecord-iOS-Prefix.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MagicalRecord-OSX-Prefix.pch">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:MagicalRecord.xcodeproj">
+            </FileRef>
+            <FileRef
+               location = "group:Rakefile">
+            </FileRef>
+            <Group
+               location = "group:Tests"
+               name = "Tests">
+               <Group
+                  location = "group:Core"
+                  name = "Core">
+                  <FileRef
+                     location = "group:MagicalRecordTests.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MagicalRecordTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObjectContextHelperTests.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObjectContextHelperTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObjectHelperTests.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObjectHelperTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObjectModelHelperTests.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSManagedObjectModelHelperTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSPersisentStoreHelperTests.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSPersisentStoreHelperTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSPersistentStoreCoordinatorHelperTests.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSPersistentStoreCoordinatorHelperTests.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:DataImport"
+                  name = "DataImport">
+                  <FileRef
+                     location = "group:ImportSingleEntityRelatedToManyMappedEntitiesUsingMappedPrimaryKeyTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ImportSingleEntityRelatedToMappedEntityUsingDefaultsTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ImportSingleEntityRelatedToMappedEntityUsingMappedPrimaryKeyTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ImportSingleEntityRelatedToMappedEntityWithNestedMappedAttributesTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ImportSingleEntityRelatedToMappedEntityWithSecondaryMappingsTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ImportSingleEntityWithNoRelationshipsTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ImportSingleRelatedEntityTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MagicalDataImportTestCase.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MagicalDataImportTestCase.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Fixtures"
+                  name = "Fixtures">
+                  <FileRef
+                     location = "group:FixtureHelpers.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FixtureHelpers.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ImportSingleEntityRelatedToManyMappedEntitiesUsingListOfPrimaryKeysTests.m">
+                  </FileRef>
+                  <Group
+                     location = "group:Mac"
+                     name = "Mac">
+                     <FileRef
+                        location = "group:TestModel.xcdatamodeld">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:SampleJSONDataForImport.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SingleEntityRelatedToManyMappedEntitiesUsingListOfPrimaryKeys.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SingleEntityRelatedToManyMappedEntitiesUsingMappedPrimaryKey.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SingleEntityRelatedToMappedEntityUsingDefaults.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SingleEntityRelatedToMappedEntityUsingMappedPrimaryKey.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SingleEntityRelatedToMappedEntityWithNestedMappedAttributes.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SingleEntityRelatedToMappedEntityWithSecondaryMappings.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SingleEntityWithNoRelationships.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SingleEntityWithNoRelationships.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SingleRelatedEntity.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:MagicalDataImportTestCase.h.orig">
+               </FileRef>
+               <FileRef
+                  location = "group:MagicalRecord+ActionsSpec.m">
+               </FileRef>
+               <FileRef
+                  location = "group:NSManagedObjectContext+MagicalSavesSpec.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SaveTests.m">
+               </FileRef>
+               <Group
+                  location = "group:Support"
+                  name = "Support">
+                  <Group
+                     location = "group:en.lproj"
+                     name = "en.lproj">
+                     <FileRef
+                        location = "group:InfoPlist.strings">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:MagicalRecordTests-iOS-Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MagicalRecordTests-iOS-Prefix.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MagicalRecordTests-OSX-Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MagicalRecordTests-OSX-Prefix.pch">
+                  </FileRef>
+                  <Group
+                     location = "group:Vendor"
+                     name = "Vendor">
+                     <Group
+                        location = "group:Expecta"
+                        name = "Expecta">
+                     </Group>
+                     <Group
+                        location = "group:Kiwi"
+                        name = "Kiwi">
+                     </Group>
+                  </Group>
+               </Group>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:Samples"
+            name = "Samples">
+            <Group
+               location = "group:iOS"
+               name = "iOS">
+               <Group
+                  location = "group:Application"
+                  name = "Application">
+                  <Group
+                     location = "group:Categories"
+                     name = "Categories">
+                     <FileRef
+                        location = "group:ImageToDataTransformer.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ImageToDataTransformer.m">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Controllers"
+                     name = "Controllers">
+                     <FileRef
+                        location = "group:AddressBook_Prefix.pch">
+                     </FileRef>
+                     <FileRef
+                        location = "group:EditingTableViewCell.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:EditingTableViewCell.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ImperialPickerController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ImperialPickerController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:IngredientDetailViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:IngredientDetailViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:InstructionsViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:InstructionsViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MetricPickerController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MetricPickerController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RecipeAddViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RecipeAddViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RecipeDetailViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RecipeDetailViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RecipeListTableViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RecipeListTableViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RecipePhotoViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RecipePhotoViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RecipeTableViewCell.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RecipeTableViewCell.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:TemperatureCell.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:TemperatureCell.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:TemperatureConverterViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:TemperatureConverterViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:TypeSelectionViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:TypeSelectionViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UnitConverterTableViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UnitConverterTableViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:WeightConverterViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:WeightConverterViewController.m">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Delegate"
+                     name = "Delegate">
+                     <FileRef
+                        location = "group:MGPRecipesAppDelegate.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MGPRecipesAppDelegate.m">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Models"
+                     name = "Models">
+                     <Group
+                        location = "group:entities"
+                        name = "entities">
+                        <FileRef
+                           location = "group:Ingredient.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Ingredient.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Recipe.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Recipe.m">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:generated"
+                        name = "generated">
+                        <FileRef
+                           location = "group:_Ingredient.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:_Ingredient.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:_Recipe.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:_Recipe.m">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:Recipes.xcdatamodeld">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Support"
+                     name = "Support">
+                     <Group
+                        location = "group:en.lproj"
+                        name = "en.lproj">
+                        <FileRef
+                           location = "group:InfoPlist.strings">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:main.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Recipies-Info.plist">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Recipies-Prefix.pch">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Views"
+                     name = "Views">
+                     <FileRef
+                        location = "group:DetailHeaderView.xib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:EditingTableViewCell.xib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:InstructionsView.xib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MainWindow.xib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:OtherMainWindow.xib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RecipeAddView.xib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:TemperatureCell.xib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:TemperatureConverter.xib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:WeightConverter.xib">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:MagicalRecordRecipes.xcodeproj">
+               </FileRef>
+               <Group
+                  location = "group:Resources"
+                  name = "Resources">
+                  <FileRef
+                     location = "group:Default-568h@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default@2x.png">
+                  </FileRef>
+                  <Group
+                     location = "group:images"
+                     name = "images">
+                     <FileRef
+                        location = "group:choosePhoto.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:convert.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:fork.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-72.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-Small-50.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-Small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-Small@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:iTunesArtwork">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:RecipeData"
+                     name = "RecipeData">
+                     <FileRef
+                        location = "group:Recipes.sqlite">
+                     </FileRef>
+                     <FileRef
+                        location = "group:TemperatureData.plist">
+                     </FileRef>
+                  </Group>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Mac"
+               name = "Mac">
+               <FileRef
+                  location = "group:Mac Sample App.xcodeproj">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:AFNetworking-master"
+         name = "AFNetworking-master">
+         <Group
+            location = "group:AFNetworking"
+            name = "AFNetworking">
+            <FileRef
+               location = "group:AFHTTPRequestOperation.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFHTTPRequestOperation.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFHTTPRequestOperationManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFHTTPRequestOperationManager.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFHTTPSessionManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFHTTPSessionManager.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFNetworking.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFNetworkReachabilityManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFNetworkReachabilityManager.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFSecurityPolicy.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFSecurityPolicy.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFURLConnectionOperation.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFURLConnectionOperation.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFURLRequestSerialization.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFURLRequestSerialization.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFURLResponseSerialization.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFURLResponseSerialization.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFURLSessionManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFURLSessionManager.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AFNetworking.xcworkspace">
+         </FileRef>
+         <Group
+            location = "group:Example"
+            name = "Example">
+            <Group
+               location = "group:Classes"
+               name = "Classes">
+               <FileRef
+                  location = "group:AFAppDotNetAPIClient.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFAppDotNetAPIClient.m">
+               </FileRef>
+               <Group
+                  location = "group:Controllers"
+                  name = "Controllers">
+                  <FileRef
+                     location = "group:GlobalTimelineViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GlobalTimelineViewController.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Models"
+                  name = "Models">
+                  <FileRef
+                     location = "group:Post.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Post.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:User.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:User.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Views"
+                  name = "Views">
+                  <FileRef
+                     location = "group:PostTableViewCell.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PostTableViewCell.m">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:MainMenu.xib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Images"
+               name = "Images">
+               <FileRef
+                  location = "group:profile-image-placeholder.png">
+               </FileRef>
+               <FileRef
+                  location = "group:profile-image-placeholder@2x.png">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:iOS Tests"
+               name = "iOS Tests">
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+               </Group>
+            </Group>
+            <Group
+               location = "group:OS X Tests"
+               name = "OS X Tests">
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+               </Group>
+            </Group>
+            <Group
+               location = "group:Resources"
+               name = "Resources">
+               <Group
+                  location = "group:ADN.net"
+                  name = "ADN.net">
+                  <Group
+                     location = "group:ADNNetServerTrustChain"
+                     name = "ADNNetServerTrustChain">
+                     <FileRef
+                        location = "group:adn_0.cer">
+                     </FileRef>
+                     <FileRef
+                        location = "group:adn_1.cer">
+                     </FileRef>
+                     <FileRef
+                        location = "group:adn_2.cer">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:HTTPBin.org"
+                  name = "HTTPBin.org">
+                  <FileRef
+                     location = "group:Geotrust_Root_CA.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:httpbinorg_11212014.cer">
+                  </FileRef>
+                  <Group
+                     location = "group:HTTPBinOrgServerTrustChain"
+                     name = "HTTPBinOrgServerTrustChain">
+                     <FileRef
+                        location = "group:httpbin_0.cer">
+                     </FileRef>
+                     <FileRef
+                        location = "group:httpbin_1.cer">
+                     </FileRef>
+                     <FileRef
+                        location = "group:httpbin_2.cer">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Rapid_SSL_CA.cer">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:SelfSigned"
+                  name = "SelfSigned">
+                  <FileRef
+                     location = "group:AltName.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:foobar.com.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NoDomains.cer">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Schemes"
+               name = "Schemes">
+               <FileRef
+                  location = "group:iOS Tests.xcscheme">
+               </FileRef>
+               <FileRef
+                  location = "group:OS X Tests.xcscheme">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Tests"
+               name = "Tests">
+               <Group
+                  location = "group:1.0 Tests"
+                  name = "1.0 Tests">
+                  <FileRef
+                     location = "group:AFHTTPClientTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AFHTTPRequestOperationTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AFImageRequestOperationTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AFJSONRequestOperationTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AFMockURLProtocol.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AFMockURLProtocol.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AFNetworkingTests.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AFNetworkingTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AFURLConnectionOperationTests.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:AFHTTPRequestOperationTests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFHTTPRequestSerializationTests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFHTTPResponseSerializationTests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFHTTPSessionManagerTests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFJSONSerializationTests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworkActivityManagerTests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFPropertyListResponseSerializerTests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFSecurityPolicyTests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFTestCase.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFTestCase.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLSessionManagerTests.m">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:UIKit+AFNetworking"
+            name = "UIKit+AFNetworking">
+            <FileRef
+               location = "group:AFNetworkActivityIndicatorManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFNetworkActivityIndicatorManager.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIActivityIndicatorView+AFNetworking.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIActivityIndicatorView+AFNetworking.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIAlertView+AFNetworking.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIAlertView+AFNetworking.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIButton+AFNetworking.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIButton+AFNetworking.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIImageView+AFNetworking.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIImageView+AFNetworking.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIKit+AFNetworking.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIProgressView+AFNetworking.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIProgressView+AFNetworking.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIRefreshControl+AFNetworking.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIRefreshControl+AFNetworking.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIWebView+AFNetworking.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIWebView+AFNetworking.m">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:AFNetWorking_Weather_Final"
+         name = "AFNetWorking_Weather_Final">
+         <Group
+            location = "group:Weather"
+            name = "Weather">
+            <Group
+               location = "group:AFNetworking"
+               name = "AFNetworking">
+               <FileRef
+                  location = "group:AFHTTPRequestOperation.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFHTTPRequestOperation.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFHTTPRequestOperationManager.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFHTTPRequestOperationManager.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFHTTPSessionManager.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFHTTPSessionManager.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworkReachabilityManager.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworkReachabilityManager.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFSecurityPolicy.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFSecurityPolicy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLConnectionOperation.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLConnectionOperation.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLRequestSerialization.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLRequestSerialization.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLResponseSerialization.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLResponseSerialization.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLSessionManager.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLSessionManager.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+               <FileRef
+                  location = "group:MainStoryboard.storyboard">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Images.xcassets"
+               name = "Images.xcassets">
+               <Group
+                  location = "group:angrycloud.imageset"
+                  name = "angrycloud.imageset">
+                  <FileRef
+                     location = "group:angrycloud.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:angrycloud@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-29@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-40@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-60@2x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:clear.imageset"
+                  name = "clear.imageset">
+                  <FileRef
+                     location = "group:clear.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:clear@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:cloud.imageset"
+                  name = "cloud.imageset">
+                  <FileRef
+                     location = "group:cloud.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:cloud@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:darksky.imageset"
+                  name = "darksky.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:darksky.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:darksky@2x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:LaunchImage.launchimage"
+                  name = "LaunchImage.launchimage">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default-568h@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default@2x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:lightsky.imageset"
+                  name = "lightsky.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:lightsky.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:lightsky@2x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:placeholder.imageset"
+                  name = "placeholder.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:placeholder.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:rain.imageset"
+                  name = "rain.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:rain.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:rain@2x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:snow.imageset"
+                  name = "snow.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:snow.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:snow@2x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:sun.imageset"
+                  name = "sun.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sun.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sun@2x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:thunderbolt.imageset"
+                  name = "thunderbolt.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:thunderbolt.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:thunderbolt@2x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:windycloud.imageset"
+                  name = "windycloud.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:windycloud.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:windycloud@2x.png">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSDictionary+weather.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSDictionary+weather.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSDictionary+weather_package.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSDictionary+weather_package.m">
+            </FileRef>
+            <Group
+               location = "group:UIKit+AFNetworking"
+               name = "UIKit+AFNetworking">
+               <FileRef
+                  location = "group:AFNetworkActivityIndicatorManager.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworkActivityIndicatorManager.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIActivityIndicatorView+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIActivityIndicatorView+AFNetworking.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIAlertView+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIAlertView+AFNetworking.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIButton+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIButton+AFNetworking.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImageView+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImageView+AFNetworking.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIKit+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIProgressView+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIProgressView+AFNetworking.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIWebView+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIWebView+AFNetworking.m">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Weather-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Weather-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:WeatherAnimationViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:WeatherAnimationViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:WeatherHTTPClient.h">
+            </FileRef>
+            <FileRef
+               location = "group:WeatherHTTPClient.m">
+            </FileRef>
+            <FileRef
+               location = "group:WTAppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:WTAppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:WTTableViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:WTTableViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Weather.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:XMLDictionary-master"
+         name = "XMLDictionary-master">
+         <Group
+            location = "group:XMLDictionary"
+            name = "XMLDictionary">
+            <FileRef
+               location = "group:XMLDictionary.h">
+            </FileRef>
+            <FileRef
+               location = "group:XMLDictionary.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:LICENCE.md">
+         </FileRef>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:XMLTest"
+               name = "XMLTest">
+               <FileRef
+                  location = "group:AppDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AppDelegate.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Default-568h@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ViewController.xib">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:main.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:XMLTest-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:XMLTest-Prefix.pch">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:XMLTest.xcodeproj">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:XMLDictionary.podspec">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:jastor-master"
+         name = "jastor-master">
+         <Group
+            location = "group:Jastor"
+            name = "Jastor">
+            <Group
+               location = "group:Jastor"
+               name = "Jastor">
+               <FileRef
+                  location = "group:Jastor-Prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:Jastor.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Jastor.m">
+               </FileRef>
+               <FileRef
+                  location = "group:JastorRuntimeHelper.h">
+               </FileRef>
+               <FileRef
+                  location = "group:JastorRuntimeHelper.m">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Jastor.xcodeproj">
+            </FileRef>
+            <Group
+               location = "group:JastorTests"
+               name = "JastorTests">
+               <Group
+                  location = "group:3rdparty"
+                  name = "3rdparty">
+                  <Group
+                     location = "group:JSONKIT"
+                     name = "JSONKIT">
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:JastorTests-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:JastorTests.h">
+               </FileRef>
+               <FileRef
+                  location = "group:JastorTests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Person.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Person.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Product.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Product.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ProductCategory.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ProductCategory.m">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:jastor.podspec">
+         </FileRef>
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:VERSION">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:JAGPropertyConverter-master"
+         name = "JAGPropertyConverter-master">
+         <FileRef
+            location = "group:AppledocSettings.plist">
+         </FileRef>
+         <Group
+            location = "group:Documentation"
+            name = "Documentation">
+            <Group
+               location = "group:Classes"
+               name = "Classes">
+               <FileRef
+                  location = "group:JAGProperty.html">
+               </FileRef>
+               <FileRef
+                  location = "group:JAGPropertyConverter.html">
+               </FileRef>
+               <FileRef
+                  location = "group:JAGPropertyFinder.html">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:css"
+               name = "css">
+               <FileRef
+                  location = "group:styles.css">
+               </FileRef>
+               <FileRef
+                  location = "group:stylesPrint.css">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:hierarchy.html">
+            </FileRef>
+            <Group
+               location = "group:img"
+               name = "img">
+               <FileRef
+                  location = "group:button_bar_background.png">
+               </FileRef>
+               <FileRef
+                  location = "group:disclosure.png">
+               </FileRef>
+               <FileRef
+                  location = "group:disclosure_open.png">
+               </FileRef>
+               <FileRef
+                  location = "group:library_background.png">
+               </FileRef>
+               <FileRef
+                  location = "group:title_background.png">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:index.html">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:JAGPropertyConverter"
+            name = "JAGPropertyConverter">
+            <FileRef
+               location = "group:JAGProperty.h">
+            </FileRef>
+            <FileRef
+               location = "group:JAGProperty.m">
+            </FileRef>
+            <FileRef
+               location = "group:JAGPropertyConverter-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:JAGPropertyConverter.h">
+            </FileRef>
+            <FileRef
+               location = "group:JAGPropertyConverter.m">
+            </FileRef>
+            <FileRef
+               location = "group:JAGPropertyFinder.h">
+            </FileRef>
+            <FileRef
+               location = "group:JAGPropertyFinder.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:JAGPropertyConverter.podspec">
+         </FileRef>
+         <FileRef
+            location = "group:JAGPropertyConverter.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:JAGPropertyConverterTests"
+            name = "JAGPropertyConverterTests">
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:ExampleTest.h">
+            </FileRef>
+            <FileRef
+               location = "group:ExampleTest.m">
+            </FileRef>
+            <FileRef
+               location = "group:JAGPropertyConverterTest.h">
+            </FileRef>
+            <FileRef
+               location = "group:JAGPropertyConverterTest.m">
+            </FileRef>
+            <FileRef
+               location = "group:JAGPropertyConverterTests-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:JAGPropertyFinderTest.h">
+            </FileRef>
+            <FileRef
+               location = "group:JAGPropertyFinderTest.m">
+            </FileRef>
+            <FileRef
+               location = "group:JAGPropertyTest.h">
+            </FileRef>
+            <FileRef
+               location = "group:JAGPropertyTest.m">
+            </FileRef>
+            <FileRef
+               location = "group:NumberFormatterTest.h">
+            </FileRef>
+            <FileRef
+               location = "group:NumberFormatterTest.m">
+            </FileRef>
+            <FileRef
+               location = "group:PropertyModelTests.h">
+            </FileRef>
+            <FileRef
+               location = "group:PropertyModelTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:TestModel.h">
+            </FileRef>
+            <FileRef
+               location = "group:TestModel.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Sample Application"
+      name = "Sample Application">
+      <Group
+         location = "group:ImageGrabberAsync"
+         name = "ImageGrabberAsync">
+         <Group
+            location = "group:ImageGrabber"
+            name = "ImageGrabber">
+            <Group
+               location = "group:ASIHTTPRequest"
+               name = "ASIHTTPRequest">
+               <FileRef
+                  location = "group:ASIAuthenticationDialog.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIAuthenticationDialog.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ASICacheDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIDataCompressor.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIDataCompressor.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIDataDecompressor.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIDataDecompressor.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIDownloadCache.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIDownloadCache.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIFormDataRequest.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIFormDataRequest.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIHTTPRequest.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIHTTPRequest.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIHTTPRequestConfig.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIHTTPRequestDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIInputStream.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIInputStream.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ASINetworkQueue.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ASINetworkQueue.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ASIProgressDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Reachability.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Reachability.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+               <FileRef
+                  location = "group:MainWindow.xib">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:ImageDetailViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ImageDetailViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:ImageDetailViewController.xib">
+            </FileRef>
+            <FileRef
+               location = "group:ImageGrabber-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:ImageGrabber-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:ImageGrabberAppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:ImageGrabberAppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:ImageInfo.h">
+            </FileRef>
+            <FileRef
+               location = "group:ImageInfo.m">
+            </FileRef>
+            <FileRef
+               location = "group:ImageListViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ImageListViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:ImageManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:ImageManager.m">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:WebViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:WebViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:WebViewController.xib">
+            </FileRef>
+            <Group
+               location = "group:ZipArchive"
+               name = "ZipArchive">
+               <Group
+                  location = "group:minizip"
+                  name = "minizip">
+                  <FileRef
+                     location = "group:crypt.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ioapi.c">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ioapi.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mztools.c">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mztools.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:unzip.c">
+                  </FileRef>
+                  <FileRef
+                     location = "group:unzip.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:zip.c">
+                  </FileRef>
+                  <FileRef
+                     location = "group:zip.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:ZipArchive.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ZipArchive.mm">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:ZipArchive.h">
+            </FileRef>
+            <FileRef
+               location = "group:ZipArchive.mm">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ImageGrabber.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:CoolTable"
+         name = "CoolTable">
+         <Group
+            location = "group:CoolTable"
+            name = "CoolTable">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:Common.h">
+            </FileRef>
+            <FileRef
+               location = "group:Common.m">
+            </FileRef>
+            <FileRef
+               location = "group:CoolTable-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:CoolTable-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:CoolTableViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:CoolTableViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:CustomCellBackground.h">
+            </FileRef>
+            <FileRef
+               location = "group:CustomCellBackground.m">
+            </FileRef>
+            <FileRef
+               location = "group:CustomFooter.h">
+            </FileRef>
+            <FileRef
+               location = "group:CustomFooter.m">
+            </FileRef>
+            <FileRef
+               location = "group:CustomHeader.h">
+            </FileRef>
+            <FileRef
+               location = "group:CustomHeader.m">
+            </FileRef>
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default@2x.png">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+               <FileRef
+                  location = "group:MainStoryboard.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:main_bg.jpg">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:CoolTable.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:CoolButton-1"
+         name = "CoolButton-1">
+         <Group
+            location = "group:CoolButton"
+            name = "CoolButton">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:Common.h">
+            </FileRef>
+            <FileRef
+               location = "group:Common.m">
+            </FileRef>
+            <FileRef
+               location = "group:CoolButton-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:CoolButton-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:CoolButton.h">
+            </FileRef>
+            <FileRef
+               location = "group:CoolButton.m">
+            </FileRef>
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default@2x.png">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+               <FileRef
+                  location = "group:MainStoryboard.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:CoolButton.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:CoolPattern"
+         name = "CoolPattern">
+         <Group
+            location = "group:CoolPattern"
+            name = "CoolPattern">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:CoolPattern-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:CoolPattern-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:CoolPatternView.h">
+            </FileRef>
+            <FileRef
+               location = "group:CoolPatternView.m">
+            </FileRef>
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default@2x.png">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+               <FileRef
+                  location = "group:MainStoryboard.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:CoolPattern.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:RageTweet"
+         name = "RageTweet">
+         <Group
+            location = "group:RageTweet"
+            name = "RageTweet">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:ContainerScrollView.h">
+            </FileRef>
+            <FileRef
+               location = "group:ContainerScrollView.m">
+            </FileRef>
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default@2x.png">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Images"
+               name = "Images">
+               <FileRef
+                  location = "group:content.png">
+               </FileRef>
+               <FileRef
+                  location = "group:content@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:happy.png">
+               </FileRef>
+               <FileRef
+                  location = "group:happy@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:irked.png">
+               </FileRef>
+               <FileRef
+                  location = "group:irked@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:no-amused.png">
+               </FileRef>
+               <FileRef
+                  location = "group:no-amused@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:raging.png">
+               </FileRef>
+               <FileRef
+                  location = "group:raging@2x.png">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:MainStoryboard.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:RageTweet-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:RageTweet-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:SkyView.h">
+            </FileRef>
+            <FileRef
+               location = "group:SkyView.m">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:RageTweet.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Picnic-animation"
+         name = "Picnic-animation">
+         <FileRef
+            location = "group:bug.png">
+         </FileRef>
+         <Group
+            location = "group:Classes"
+            name = "Classes">
+            <FileRef
+               location = "group:PicnicAppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:PicnicAppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:PicnicViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:PicnicViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:door_bottom.png">
+         </FileRef>
+         <FileRef
+            location = "group:door_top.png">
+         </FileRef>
+         <FileRef
+            location = "group:fabric_bottom.png">
+         </FileRef>
+         <FileRef
+            location = "group:fabric_top.png">
+         </FileRef>
+         <FileRef
+            location = "group:logo1.png">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:MainWindow.xib">
+         </FileRef>
+         <FileRef
+            location = "group:Picnic-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Picnic.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Picnic_Prefix.pch">
+         </FileRef>
+         <FileRef
+            location = "group:PicnicViewController.xib">
+         </FileRef>
+         <FileRef
+            location = "group:plate_cheese.png">
+         </FileRef>
+         <FileRef
+            location = "group:squish.caf">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:LayerFun"
+         name = "LayerFun">
+         <FileRef
+            location = "group:BattleMapSplashScreen.png">
+         </FileRef>
+         <Group
+            location = "group:Classes"
+            name = "Classes">
+            <FileRef
+               location = "group:Common.h">
+            </FileRef>
+            <FileRef
+               location = "group:Common.m">
+            </FileRef>
+            <FileRef
+               location = "group:LayerFunAppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:LayerFunAppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:LayerFunViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:LayerFunViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:LayerFun-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:LayerFun.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:LayerFun_Prefix.pch">
+         </FileRef>
+         <FileRef
+            location = "group:LayerFunViewController.xib">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:MainWindow.xib">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:MonkeyPinch-2"
+         name = "MonkeyPinch-2">
+         <Group
+            location = "group:MonkeyPinch"
+            name = "MonkeyPinch">
+            <FileRef
+               location = "group:AppDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:banana.png">
+            </FileRef>
+            <FileRef
+               location = "group:banana@2x.png">
+            </FileRef>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:chomp.caf">
+            </FileRef>
+            <FileRef
+               location = "group:hehehe1.caf">
+            </FileRef>
+            <Group
+               location = "group:Images.xcassets"
+               name = "Images.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:LaunchImage.launchimage"
+                  name = "LaunchImage.launchimage">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:monkey.png">
+            </FileRef>
+            <FileRef
+               location = "group:monkey@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:MonkeyPinch-Bridging-Header.h">
+            </FileRef>
+            <FileRef
+               location = "group:TickleGestureRecognizer.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:MonkeyPinch.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:MonkeyPinchTests"
+            name = "MonkeyPinchTests">
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:MonkeyPinchTests.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:CandySearch"
+         name = "CandySearch">
+         <Group
+            location = "group:CandySearch"
+            name = "CandySearch">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:Candy.h">
+            </FileRef>
+            <FileRef
+               location = "group:candy.jpeg">
+            </FileRef>
+            <FileRef
+               location = "group:Candy.m">
+            </FileRef>
+            <FileRef
+               location = "group:CandySearch-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:CandySearch-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:CandyTableViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:CandyTableViewController.m">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+               <FileRef
+                  location = "group:MainStoryboard.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:CandySearch.xcodeproj">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

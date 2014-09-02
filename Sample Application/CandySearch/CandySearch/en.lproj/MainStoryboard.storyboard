@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2541" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="oEt-qY-nff">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1875"/>
+    </dependencies>
+    <scenes>
+        <!--Candy Table View Controller - CandySearch-->
+        <scene sceneID="Rze-eT-Whb">
+            <objects>
+                <tableViewController id="5ec-Zu-oCU" customClass="CandyTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="L9U-KE-Ukf">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" showsScopeBar="YES" id="APY-D5-Uif">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <scopeButtonTitles>
+                                <string>All</string>
+                                <string>Chocolate</string>
+                                <string>Hard</string>
+                                <string>Other</string>
+                            </scopeButtonTitles>
+                            <connections>
+                                <outlet property="delegate" destination="5ec-Zu-oCU" id="gSs-ZQ-IDI"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="z8s-kU-r6w">
+                                <rect key="frame" x="0.0" y="110" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="5ec-Zu-oCU" id="vHa-yG-35W"/>
+                            <outlet property="delegate" destination="5ec-Zu-oCU" id="u3R-Gb-UxX"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="CandySearch" id="ukq-aE-iHo">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="6ct-I6-TOG">
+                            <connections>
+                                <action selector="goToSearch:" destination="5ec-Zu-oCU" id="cBL-az-SRw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="candySearchBar" destination="APY-D5-Uif" id="NMh-G2-hmB"/>
+                        <outlet property="searchDisplayController" destination="BSd-cq-BAp" id="vjK-FB-PK4"/>
+                        <segue destination="9vA-dT-1Wd" kind="push" identifier="candyDetail" id="nCx-VU-xrh"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xje-R3-Nan" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="BSd-cq-BAp">
+                    <connections>
+                        <outlet property="delegate" destination="5ec-Zu-oCU" id="kOn-aY-25j"/>
+                        <outlet property="searchBar" destination="APY-D5-Uif" id="xtn-Ri-JEb"/>
+                        <outlet property="searchContentsController" destination="5ec-Zu-oCU" id="nDK-QY-V7C"/>
+                        <outlet property="searchResultsDataSource" destination="5ec-Zu-oCU" id="uty-JM-mfr"/>
+                        <outlet property="searchResultsDelegate" destination="5ec-Zu-oCU" id="CMU-Er-QO7"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="458" y="212"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ych-9c-xQ1">
+            <objects>
+                <viewController id="9vA-dT-1Wd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wUr-VK-iyv">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="candy.jpeg" id="hff-t1-WC5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TyT-7M-ZEv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Ws-qW-XE0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="869" y="212"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zgD-bz-Oqh">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="oEt-qY-nff" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="c43-3r-mcI">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5ec-Zu-oCU" kind="relationship" relationship="rootViewController" id="WJh-wH-S5u"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jG9-45-XGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="candy.jpeg" width="640" height="832"/>
+    </resources>
+    <classes>
+        <class className="CandyTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CandyTableViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="candySearchBar" candidateClass="UISearchBar"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
