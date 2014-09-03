@@ -1,0 +1,11 @@
+platform :ios, '7.0'
+
+# :path refers to the local copy for development.
+pod 'RBStoryboardLink', :path => '../RBStoryboardLink.podspec'
+
+# Conditional includes for the KIF tests.
+# It is important that we don't include KIF in the main app.
+# Some of the categories cause the UI to appear unresponsive.
+target 'UI Tests', :exclusive => true do
+    pod 'KIF', '~> 2.0', :inhibit_warnings => true
+end

@@ -1750,6 +1750,273 @@
             location = "group:README.md">
          </FileRef>
       </Group>
+      <Group
+         location = "group:RBStoryboardLink-master"
+         name = "RBStoryboardLink-master">
+         <Group
+            location = "group:Classes"
+            name = "Classes">
+            <FileRef
+               location = "group:RBStoryboardLink.h">
+            </FileRef>
+            <FileRef
+               location = "group:RBStoryboardLink.m">
+            </FileRef>
+            <FileRef
+               location = "group:RBStoryboardLinkSource.h">
+            </FileRef>
+            <FileRef
+               location = "group:RBStoryboardModalSegue.h">
+            </FileRef>
+            <FileRef
+               location = "group:RBStoryboardModalSegue.m">
+            </FileRef>
+            <FileRef
+               location = "group:RBStoryboardPopoverSegue.h">
+            </FileRef>
+            <FileRef
+               location = "group:RBStoryboardPopoverSegue.m">
+            </FileRef>
+            <FileRef
+               location = "group:RBStoryboardPushSegue.h">
+            </FileRef>
+            <FileRef
+               location = "group:RBStoryboardPushSegue.m">
+            </FileRef>
+            <FileRef
+               location = "group:RBStoryboardSegue.h">
+            </FileRef>
+            <FileRef
+               location = "group:RBStoryboardSegue.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIViewController+RBStoryboardLink.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIViewController+RBStoryboardLink.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <Group
+            location = "group:LinkedStoryboards"
+            name = "LinkedStoryboards">
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <Group
+               location = "group:LinkedStoryboards"
+               name = "LinkedStoryboards">
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MainStoryboard.storyboard">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LinkedStoryboards-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:LinkedStoryboards-Prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:LSAppDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LSAppDelegate.m">
+               </FileRef>
+               <FileRef
+                  location = "group:LSChooseViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LSChooseViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:LSHelloViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LSHelloViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:LSLinkedViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LSLinkedViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:LSModalViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LSModalViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:LSParameterReceivingViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LSParameterReceivingViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:LSRandomNumberViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LSRandomNumberViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:main.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ModalStoryboard.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:SecondaryStoryboard.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:TertiaryStoryboard.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:LinkedStoryboards.xcodeproj">
+            </FileRef>
+            <FileRef
+               location = "group:LinkedStoryboards.xcworkspace">
+            </FileRef>
+            <FileRef
+               location = "group:Podfile">
+            </FileRef>
+            <FileRef
+               location = "group:Podfile.lock">
+            </FileRef>
+            <Group
+               location = "group:UI Tests"
+               name = "UI Tests">
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LSUITests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UI Tests-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:UI Tests-Prefix.pch">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:LinkedTabs"
+            name = "LinkedTabs">
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <Group
+               location = "group:LinkedTabs"
+               name = "LinkedTabs">
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MainStoryboard.storyboard">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:first.png">
+               </FileRef>
+               <FileRef
+                  location = "group:first@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:FirstTabStoryboard.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:LinkedTabs-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:LinkedTabs-Prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:LTAppDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LTAppDelegate.m">
+               </FileRef>
+               <FileRef
+                  location = "group:LTFirstViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LTFirstViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:LTSecondViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LTSecondViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:main.m">
+               </FileRef>
+               <FileRef
+                  location = "group:second.png">
+               </FileRef>
+               <FileRef
+                  location = "group:second@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:SecondTabStoryboard.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:LinkedTabs.xcodeproj">
+            </FileRef>
+            <FileRef
+               location = "group:LinkedTabs.xcworkspace">
+            </FileRef>
+            <FileRef
+               location = "group:Podfile">
+            </FileRef>
+            <FileRef
+               location = "group:Podfile.lock">
+            </FileRef>
+            <Group
+               location = "group:UI Tests"
+               name = "UI Tests">
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LTTests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UI Tests-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:UI Tests-Prefix.pch">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:RBStoryboardLink.podspec">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
    </Group>
    <Group
       location = "group:Sample Application"
