@@ -7,7 +7,27 @@
 //
 
 #import "CTButtonControlledViewController.h"
+@interface UIImage(Overlay)
+@end
 
+@implementation UIImage(Overlay)
+
+- (UIImage *)imageWithColor:(UIColor *)color1
+{
+    UIGraphicsBeginImageContextWithOptions(self.size, NO, self.scale);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextTranslateCTM(context, 0, self.size.height);
+    CGContextScaleCTM(context, 1.0, -1.0);
+    CGContextSetBlendMode(context, kCGBlendModeNormal);
+    CGRect rect = CGRectMake(0, 0, self.size.width, self.size.height);
+    CGContextClipToMask(context, rect, self.CGImage);
+    [color1 setFill];
+    CGContextFillRect(context, rect);
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return newImage;
+}
+@end
 @interface CTButtonControlledViewController ()
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
@@ -21,15 +41,11 @@
 
     // set the image  in the image view to use template mode.
     _imageView.image = [[UIImage imageNamed:@"captech_img"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
-    
 }
 
 - (IBAction)setRedTint:(id)sender {
     // set the window's tent color to red
-   // [[UIApplication sharedApplication] keyWindow].tintColor = [UIColor redColor];
-    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor greenColor], UITextAttributeTextColor, nil]
-                                             forState:UIControlStateNormal];
-[[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor greenColor]} forState:UIControlStateNormal];
+   [[UIApplication sharedApplication] keyWindow].tintColor = [UIColor redColor];
     /*
     // this will generate a black tab bar
     tabBarController.tabBar.barTintColor = [UIColor blackColor];
@@ -46,23 +62,22 @@
     
     //http://stackoverflow.com/questions/11512783/unselected-uitabbar-color/18433996#18433996
     /*
-     // set color of selected icons and text to red
-     self.tabBar.tintColor = [UIColor redColor];
-     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys: [UIColor redColor], UITextAttributeTextColor, nil] forState:UIControlStateSelected];
+     // set the selected colors
+     [self.tabBarController.tabBar setTintColor:[UIColor whiteColor]];
+     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys: [UIColor whiteColor], NSForegroundColorAttributeName, nil] forState:UIControlStateSelected];
      
      
-     // set color of unselected text to green
-     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor greenColor], UITextAttributeTextColor, nil]
+     UIColor * unselectedColor = [UIColor colorWithRed:184/255.0f green:224/255.0f blue:242/255.0f alpha:1.0f];
+     
+     // set color of unselected text
+     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:unselectedColor, NSForegroundColorAttributeName, nil]
      forState:UIControlStateNormal];
      
-     // set selected and unselected icons
-     UITabBarItem *item0 = [self.tabBar.items objectAtIndex:0];
-     
-     // this way, the icon gets rendered as it is (thus, it needs to be green in this example)
-     item0.image = [[UIImage imageNamed:@"unselected-icon.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-     
-     // this icon is used for selected tab and it will get tinted as defined in self.tabBar.tintColor
-     item0.selectedImage = [UIImage imageNamed:@"selected-icon.png"];
+     // generate a tinted unselected image based on image passed via the storyboard
+     for(UITabBarItem *item in self.tabBarController.tabBar.items) {
+     // use the UIImage category code for the imageWithColor: method
+     item.image = [[item.selectedImage imageWithColor:unselectedColor] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+     }
      */
 }
 
