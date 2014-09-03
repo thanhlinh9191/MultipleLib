@@ -1755,6 +1755,351 @@
       location = "group:Sample Application"
       name = "Sample Application">
       <Group
+         location = "group:RecipeBook"
+         name = "RecipeBook">
+         <Group
+            location = "group:RecipeBook"
+            name = "RecipeBook">
+            <FileRef
+               location = "group:about.html">
+            </FileRef>
+            <FileRef
+               location = "group:about.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:AboutViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:AboutViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:angry_birds_cake.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:creme_brelee.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:egg_benedict.jpg">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+               <FileRef
+                  location = "group:MainStoryboard.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:full_breakfast.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:green_tea.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:ham_and_cheese_panini.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:ham_and_egg_sandwich.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:hamburger.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:instant_noodle_with_egg.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:japanese_noodle_with_pork.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:mushroom_risotto.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:noodle_with_bbq_pork.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:photo-frame.png">
+            </FileRef>
+            <FileRef
+               location = "group:photo-frame@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Recipe.h">
+            </FileRef>
+            <FileRef
+               location = "group:Recipe.m">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeBook-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeBook-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeBookAppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeBookAppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeBookViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeBookViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeDetailViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeDetailViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:starbucks_coffee.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:thai_shrimp_cake.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:vegetable_curry.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:white_chocolate_donut.jpg">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:RecipeBook.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:MyStore-CoreData"
+         name = "MyStore-CoreData">
+         <Group
+            location = "group:MyStore"
+            name = "MyStore">
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:DeviceDetailViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:DeviceDetailViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:DeviceViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:DeviceViewController.m">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:MyStore-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:MyStore-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:MyStore.xcdatamodeld">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeBookAppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:RecipeBookAppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:Storyboard.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:MyStore.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:KVO_Observer"
+         name = "KVO_Observer">
+         <Group
+            location = "group:Lab Color Space Explorer"
+            name = "Lab Color Space Explorer">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:Main_iPad.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main_iPhone.storyboard">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Images.xcassets"
+               name = "Images.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:LaunchImage.launchimage"
+                  name = "LaunchImage.launchimage">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:KeyValueObserver.h">
+            </FileRef>
+            <FileRef
+               location = "group:KeyValueObserver.m">
+            </FileRef>
+            <FileRef
+               location = "group:Lab Color Space Explorer-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Lab Color Space Explorer-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:LabColor.h">
+            </FileRef>
+            <FileRef
+               location = "group:LabColor.m">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Lab Color Space Explorer.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Lab Color Space ExplorerTests"
+            name = "Lab Color Space ExplorerTests">
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Lab Color Space ExplorerTests-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Lab_Color_Space_ExplorerTests.m">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:fetch_result_controller"
+         name = "fetch_result_controller">
+         <Group
+            location = "group:FailedBankCD"
+            name = "FailedBankCD">
+            <FileRef
+               location = "group:CoreDataTutorial2.sqlite">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+               <FileRef
+                  location = "group:MainStoryboard.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:FailedBankCD-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:FailedBankCD-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:FailedBankCD.xcdatamodeld">
+            </FileRef>
+            <FileRef
+               location = "group:FailedBankDetails.h">
+            </FileRef>
+            <FileRef
+               location = "group:FailedBankDetails.m">
+            </FileRef>
+            <FileRef
+               location = "group:FailedBankInfo.h">
+            </FileRef>
+            <FileRef
+               location = "group:FailedBankInfo.m">
+            </FileRef>
+            <FileRef
+               location = "group:FBCDAppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:FBCDAppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:FBCDMasterViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:FBCDMasterViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:FailedBankCD.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:ImageGrabberAsync"
          name = "ImageGrabberAsync">
          <Group
@@ -3557,195 +3902,6 @@
          </FileRef>
       </Group>
       <Group
-         location = "group:RecipeBook"
-         name = "RecipeBook">
-         <Group
-            location = "group:RecipeBook"
-            name = "RecipeBook">
-            <FileRef
-               location = "group:about.html">
-            </FileRef>
-            <FileRef
-               location = "group:about.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:AboutViewController.h">
-            </FileRef>
-            <FileRef
-               location = "group:AboutViewController.m">
-            </FileRef>
-            <FileRef
-               location = "group:angry_birds_cake.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:creme_brelee.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:Default-568h@2x.png">
-            </FileRef>
-            <FileRef
-               location = "group:Default.png">
-            </FileRef>
-            <FileRef
-               location = "group:Default@2x.png">
-            </FileRef>
-            <FileRef
-               location = "group:egg_benedict.jpg">
-            </FileRef>
-            <Group
-               location = "group:en.lproj"
-               name = "en.lproj">
-               <FileRef
-                  location = "group:InfoPlist.strings">
-               </FileRef>
-               <FileRef
-                  location = "group:MainStoryboard.storyboard">
-               </FileRef>
-            </Group>
-            <FileRef
-               location = "group:full_breakfast.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:green_tea.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:ham_and_cheese_panini.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:ham_and_egg_sandwich.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:hamburger.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:instant_noodle_with_egg.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:japanese_noodle_with_pork.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:main.m">
-            </FileRef>
-            <FileRef
-               location = "group:mushroom_risotto.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:noodle_with_bbq_pork.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:photo-frame.png">
-            </FileRef>
-            <FileRef
-               location = "group:photo-frame@2x.png">
-            </FileRef>
-            <FileRef
-               location = "group:Recipe.h">
-            </FileRef>
-            <FileRef
-               location = "group:Recipe.m">
-            </FileRef>
-            <FileRef
-               location = "group:RecipeBook-Info.plist">
-            </FileRef>
-            <FileRef
-               location = "group:RecipeBook-Prefix.pch">
-            </FileRef>
-            <FileRef
-               location = "group:RecipeBookAppDelegate.h">
-            </FileRef>
-            <FileRef
-               location = "group:RecipeBookAppDelegate.m">
-            </FileRef>
-            <FileRef
-               location = "group:RecipeBookViewController.h">
-            </FileRef>
-            <FileRef
-               location = "group:RecipeBookViewController.m">
-            </FileRef>
-            <FileRef
-               location = "group:RecipeDetailViewController.h">
-            </FileRef>
-            <FileRef
-               location = "group:RecipeDetailViewController.m">
-            </FileRef>
-            <FileRef
-               location = "group:starbucks_coffee.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:thai_shrimp_cake.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:vegetable_curry.jpg">
-            </FileRef>
-            <FileRef
-               location = "group:white_chocolate_donut.jpg">
-            </FileRef>
-         </Group>
-         <FileRef
-            location = "group:RecipeBook.xcodeproj">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:MyStore-CoreData"
-         name = "MyStore-CoreData">
-         <Group
-            location = "group:MyStore"
-            name = "MyStore">
-            <FileRef
-               location = "group:Default-568h@2x.png">
-            </FileRef>
-            <FileRef
-               location = "group:Default.png">
-            </FileRef>
-            <FileRef
-               location = "group:Default@2x.png">
-            </FileRef>
-            <FileRef
-               location = "group:DeviceDetailViewController.h">
-            </FileRef>
-            <FileRef
-               location = "group:DeviceDetailViewController.m">
-            </FileRef>
-            <FileRef
-               location = "group:DeviceViewController.h">
-            </FileRef>
-            <FileRef
-               location = "group:DeviceViewController.m">
-            </FileRef>
-            <Group
-               location = "group:en.lproj"
-               name = "en.lproj">
-               <FileRef
-                  location = "group:InfoPlist.strings">
-               </FileRef>
-            </Group>
-            <FileRef
-               location = "group:main.m">
-            </FileRef>
-            <FileRef
-               location = "group:MyStore-Info.plist">
-            </FileRef>
-            <FileRef
-               location = "group:MyStore-Prefix.pch">
-            </FileRef>
-            <FileRef
-               location = "group:MyStore.xcdatamodeld">
-            </FileRef>
-            <FileRef
-               location = "group:RecipeBookAppDelegate.h">
-            </FileRef>
-            <FileRef
-               location = "group:RecipeBookAppDelegate.m">
-            </FileRef>
-            <FileRef
-               location = "group:Storyboard.storyboard">
-            </FileRef>
-         </Group>
-         <FileRef
-            location = "group:MyStore.xcodeproj">
-         </FileRef>
-      </Group>
-      <Group
          location = "group:RSSReader"
          name = "RSSReader">
          <Group
@@ -4189,102 +4345,6 @@
          <FileRef
             location = "group:What&apos;s new in XCode6.pdf">
          </FileRef>
-      </Group>
-      <Group
-         location = "group:KVO_Observer"
-         name = "KVO_Observer">
-         <Group
-            location = "group:Lab Color Space Explorer"
-            name = "Lab Color Space Explorer">
-            <FileRef
-               location = "group:AppDelegate.h">
-            </FileRef>
-            <FileRef
-               location = "group:AppDelegate.m">
-            </FileRef>
-            <Group
-               location = "group:Base.lproj"
-               name = "Base.lproj">
-               <FileRef
-                  location = "group:Main_iPad.storyboard">
-               </FileRef>
-               <FileRef
-                  location = "group:Main_iPhone.storyboard">
-               </FileRef>
-            </Group>
-            <Group
-               location = "group:en.lproj"
-               name = "en.lproj">
-               <FileRef
-                  location = "group:InfoPlist.strings">
-               </FileRef>
-            </Group>
-            <Group
-               location = "group:Images.xcassets"
-               name = "Images.xcassets">
-               <Group
-                  location = "group:AppIcon.appiconset"
-                  name = "AppIcon.appiconset">
-                  <FileRef
-                     location = "group:Contents.json">
-                  </FileRef>
-               </Group>
-               <Group
-                  location = "group:LaunchImage.launchimage"
-                  name = "LaunchImage.launchimage">
-                  <FileRef
-                     location = "group:Contents.json">
-                  </FileRef>
-               </Group>
-            </Group>
-            <FileRef
-               location = "group:KeyValueObserver.h">
-            </FileRef>
-            <FileRef
-               location = "group:KeyValueObserver.m">
-            </FileRef>
-            <FileRef
-               location = "group:Lab Color Space Explorer-Info.plist">
-            </FileRef>
-            <FileRef
-               location = "group:Lab Color Space Explorer-Prefix.pch">
-            </FileRef>
-            <FileRef
-               location = "group:LabColor.h">
-            </FileRef>
-            <FileRef
-               location = "group:LabColor.m">
-            </FileRef>
-            <FileRef
-               location = "group:main.m">
-            </FileRef>
-            <FileRef
-               location = "group:ViewController.h">
-            </FileRef>
-            <FileRef
-               location = "group:ViewController.m">
-            </FileRef>
-         </Group>
-         <FileRef
-            location = "group:Lab Color Space Explorer.xcodeproj">
-         </FileRef>
-         <Group
-            location = "group:Lab Color Space ExplorerTests"
-            name = "Lab Color Space ExplorerTests">
-            <Group
-               location = "group:en.lproj"
-               name = "en.lproj">
-               <FileRef
-                  location = "group:InfoPlist.strings">
-               </FileRef>
-            </Group>
-            <FileRef
-               location = "group:Lab Color Space ExplorerTests-Info.plist">
-            </FileRef>
-            <FileRef
-               location = "group:Lab_Color_Space_ExplorerTests.m">
-            </FileRef>
-         </Group>
       </Group>
    </Group>
 </Workspace>
