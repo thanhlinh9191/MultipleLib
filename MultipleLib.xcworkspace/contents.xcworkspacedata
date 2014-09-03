@@ -3703,5 +3703,116 @@
             location = "group:RSSReader.xcodeproj">
          </FileRef>
       </Group>
+      <Group
+         location = "group:Tint"
+         name = "Tint">
+         <Group
+            location = "group:Tint"
+            name = "Tint">
+            <FileRef
+               location = "group:apple-large.png">
+            </FileRef>
+            <FileRef
+               location = "group:apple.png">
+            </FileRef>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:captech_img.png">
+            </FileRef>
+            <FileRef
+               location = "group:CTAppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:CTAppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:CTButtonControlledViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:CTButtonControlledViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:CTImageView.h">
+            </FileRef>
+            <FileRef
+               location = "group:CTImageView.m">
+            </FileRef>
+            <FileRef
+               location = "group:CTTintedViewsViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:CTTintedViewsViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:CTViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:CTViewController.m">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Images.xcassets"
+               name = "Images.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:LaunchImage.launchimage"
+                  name = "LaunchImage.launchimage">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:ios-7.png">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:Tint-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Tint-Prefix.pch">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Tint.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:TintTests"
+            name = "TintTests">
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:TintTests-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:TintTests.m">
+            </FileRef>
+         </Group>
+      </Group>
    </Group>
 </Workspace>

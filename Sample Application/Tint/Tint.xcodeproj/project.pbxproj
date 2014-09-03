@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C84F092817CC20E700F78FEF /* CTTintedViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84F092717CC20E700F78FEF /* CTTintedViewsViewController.m */; };
+		C84F092B17CC239500F78FEF /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = C84F092917CC239500F78FEF /* apple.png */; };
+		C84F092C17CC239500F78FEF /* ios-7.png in Resources */ = {isa = PBXBuildFile; fileRef = C84F092A17CC239500F78FEF /* ios-7.png */; };
+		C85E076517D7F5D300D07E20 /* CTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C85E076417D7F5D300D07E20 /* CTImageView.m */; };
+		C8680B6A17C2C0F600EC42A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8680B6917C2C0F600EC42A2 /* Foundation.framework */; };
+		C8680B6C17C2C0F600EC42A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8680B6B17C2C0F600EC42A2 /* CoreGraphics.framework */; };
+		C8680B6E17C2C0F600EC42A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8680B6D17C2C0F600EC42A2 /* UIKit.framework */; };
+		C8680B7417C2C0F600EC42A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8680B7217C2C0F600EC42A2 /* InfoPlist.strings */; };
+		C8680B7617C2C0F600EC42A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8680B7517C2C0F600EC42A2 /* main.m */; };
+		C8680B7A17C2C0F600EC42A2 /* CTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8680B7917C2C0F600EC42A2 /* CTAppDelegate.m */; };
+		C8680B7D17C2C0F600EC42A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8680B7B17C2C0F600EC42A2 /* Main.storyboard */; };
+		C8680B8017C2C0F600EC42A2 /* CTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8680B7F17C2C0F600EC42A2 /* CTViewController.m */; };
+		C8680B8217C2C0F600EC42A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8680B8117C2C0F600EC42A2 /* Images.xcassets */; };
+		C8680B8917C2C0F700EC42A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8680B8817C2C0F700EC42A2 /* XCTest.framework */; };
+		C8680B8A17C2C0F700EC42A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8680B6917C2C0F600EC42A2 /* Foundation.framework */; };
+		C8680B8B17C2C0F700EC42A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8680B6D17C2C0F600EC42A2 /* UIKit.framework */; };
+		C8680B9317C2C0F700EC42A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8680B9117C2C0F700EC42A2 /* InfoPlist.strings */; };
+		C8680B9517C2C0F700EC42A2 /* TintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8680B9417C2C0F700EC42A2 /* TintTests.m */; };
+		C8680B9F17C2C60C00EC42A2 /* captech_img.png in Resources */ = {isa = PBXBuildFile; fileRef = C8680B9E17C2C60C00EC42A2 /* captech_img.png */; };
+		C8680BA217C2CB1800EC42A2 /* CTButtonControlledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8680BA117C2CB1800EC42A2 /* CTButtonControlledViewController.m */; };
+		C887143117CD756F00150183 /* apple-large.png in Resources */ = {isa = PBXBuildFile; fileRef = C887143017CD756F00150183 /* apple-large.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8680B8C17C2C0F700EC42A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8680B5E17C2C0F600EC42A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8680B6517C2C0F600EC42A2;
+			remoteInfo = Tint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C84F092617CC20E700F78FEF /* CTTintedViewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTintedViewsViewController.h; sourceTree = "<group>"; };
+		C84F092717CC20E700F78FEF /* CTTintedViewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTintedViewsViewController.m; sourceTree = "<group>"; };
+		C84F092917CC239500F78FEF /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		C84F092A17CC239500F78FEF /* ios-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-7.png"; sourceTree = "<group>"; };
+		C85E076317D7F5D300D07E20 /* CTImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTImageView.h; sourceTree = "<group>"; };
+		C85E076417D7F5D300D07E20 /* CTImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTImageView.m; sourceTree = "<group>"; };
+		C8680B6617C2C0F600EC42A2 /* Tint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8680B6917C2C0F600EC42A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8680B6B17C2C0F600EC42A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8680B6D17C2C0F600EC42A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8680B7117C2C0F600EC42A2 /* Tint-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tint-Info.plist"; sourceTree = "<group>"; };
+		C8680B7317C2C0F600EC42A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8680B7517C2C0F600EC42A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8680B7717C2C0F600EC42A2 /* Tint-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tint-Prefix.pch"; sourceTree = "<group>"; };
+		C8680B7817C2C0F600EC42A2 /* CTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAppDelegate.h; sourceTree = "<group>"; };
+		C8680B7917C2C0F600EC42A2 /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
+		C8680B7C17C2C0F600EC42A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8680B7E17C2C0F600EC42A2 /* CTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTViewController.h; sourceTree = "<group>"; };
+		C8680B7F17C2C0F600EC42A2 /* CTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTViewController.m; sourceTree = "<group>"; };
+		C8680B8117C2C0F600EC42A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C8680B8717C2C0F700EC42A2 /* TintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8680B8817C2C0F700EC42A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C8680B9017C2C0F700EC42A2 /* TintTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TintTests-Info.plist"; sourceTree = "<group>"; };
+		C8680B9217C2C0F700EC42A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8680B9417C2C0F700EC42A2 /* TintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TintTests.m; sourceTree = "<group>"; };
+		C8680B9E17C2C60C00EC42A2 /* captech_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = captech_img.png; sourceTree = "<group>"; };
+		C8680BA017C2CB1800EC42A2 /* CTButtonControlledViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTButtonControlledViewController.h; sourceTree = "<group>"; };
+		C8680BA117C2CB1800EC42A2 /* CTButtonControlledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTButtonControlledViewController.m; sourceTree = "<group>"; };
+		C887143017CD756F00150183 /* apple-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-large.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8680B6317C2C0F600EC42A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8680B6C17C2C0F600EC42A2 /* CoreGraphics.framework in Frameworks */,
+				C8680B6E17C2C0F600EC42A2 /* UIKit.framework in Frameworks */,
+				C8680B6A17C2C0F600EC42A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8680B8417C2C0F700EC42A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8680B8917C2C0F700EC42A2 /* XCTest.framework in Frameworks */,
+				C8680B8B17C2C0F700EC42A2 /* UIKit.framework in Frameworks */,
+				C8680B8A17C2C0F700EC42A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8680B5D17C2C0F600EC42A2 = {
+			isa = PBXGroup;
+			children = (
+				C8680B6F17C2C0F600EC42A2 /* Tint */,
+				C8680B8E17C2C0F700EC42A2 /* TintTests */,
+				C8680B6817C2C0F600EC42A2 /* Frameworks */,
+				C8680B6717C2C0F600EC42A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8680B6717C2C0F600EC42A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8680B6617C2C0F600EC42A2 /* Tint.app */,
+				C8680B8717C2C0F700EC42A2 /* TintTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8680B6817C2C0F600EC42A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8680B6917C2C0F600EC42A2 /* Foundation.framework */,
+				C8680B6B17C2C0F600EC42A2 /* CoreGraphics.framework */,
+				C8680B6D17C2C0F600EC42A2 /* UIKit.framework */,
+				C8680B8817C2C0F700EC42A2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8680B6F17C2C0F600EC42A2 /* Tint */ = {
+			isa = PBXGroup;
+			children = (
+				C887143017CD756F00150183 /* apple-large.png */,
+				C84F092917CC239500F78FEF /* apple.png */,
+				C84F092A17CC239500F78FEF /* ios-7.png */,
+				C8680B9E17C2C60C00EC42A2 /* captech_img.png */,
+				C8680B7817C2C0F600EC42A2 /* CTAppDelegate.h */,
+				C8680B7917C2C0F600EC42A2 /* CTAppDelegate.m */,
+				C8680B7B17C2C0F600EC42A2 /* Main.storyboard */,
+				C8680B7E17C2C0F600EC42A2 /* CTViewController.h */,
+				C8680B7F17C2C0F600EC42A2 /* CTViewController.m */,
+				C8680B8117C2C0F600EC42A2 /* Images.xcassets */,
+				C8680B7017C2C0F600EC42A2 /* Supporting Files */,
+				C8680BA017C2CB1800EC42A2 /* CTButtonControlledViewController.h */,
+				C8680BA117C2CB1800EC42A2 /* CTButtonControlledViewController.m */,
+				C84F092617CC20E700F78FEF /* CTTintedViewsViewController.h */,
+				C84F092717CC20E700F78FEF /* CTTintedViewsViewController.m */,
+				C85E076317D7F5D300D07E20 /* CTImageView.h */,
+				C85E076417D7F5D300D07E20 /* CTImageView.m */,
+			);
+			path = Tint;
+			sourceTree = "<group>";
+		};
+		C8680B7017C2C0F600EC42A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8680B7117C2C0F600EC42A2 /* Tint-Info.plist */,
+				C8680B7217C2C0F600EC42A2 /* InfoPlist.strings */,
+				C8680B7517C2C0F600EC42A2 /* main.m */,
+				C8680B7717C2C0F600EC42A2 /* Tint-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8680B8E17C2C0F700EC42A2 /* TintTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8680B9417C2C0F700EC42A2 /* TintTests.m */,
+				C8680B8F17C2C0F700EC42A2 /* Supporting Files */,
+			);
+			path = TintTests;
+			sourceTree = "<group>";
+		};
+		C8680B8F17C2C0F700EC42A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8680B9017C2C0F700EC42A2 /* TintTests-Info.plist */,
+				C8680B9117C2C0F700EC42A2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8680B6517C2C0F600EC42A2 /* Tint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8680B9817C2C0F700EC42A2 /* Build configuration list for PBXNativeTarget "Tint" */;
+			buildPhases = (
+				C8680B6217C2C0F600EC42A2 /* Sources */,
+				C8680B6317C2C0F600EC42A2 /* Frameworks */,
+				C8680B6417C2C0F600EC42A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tint;
+			productName = Tint;
+			productReference = C8680B6617C2C0F600EC42A2 /* Tint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8680B8617C2C0F700EC42A2 /* TintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8680B9B17C2C0F700EC42A2 /* Build configuration list for PBXNativeTarget "TintTests" */;
+			buildPhases = (
+				C8680B8317C2C0F700EC42A2 /* Sources */,
+				C8680B8417C2C0F700EC42A2 /* Frameworks */,
+				C8680B8517C2C0F700EC42A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8680B8D17C2C0F700EC42A2 /* PBXTargetDependency */,
+			);
+			name = TintTests;
+			productName = TintTests;
+			productReference = C8680B8717C2C0F700EC42A2 /* TintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8680B5E17C2C0F600EC42A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = CapTech;
+				TargetAttributes = {
+					C8680B6517C2C0F600EC42A2 = {
+						DevelopmentTeam = 3Q4M6DQ9WM;
+					};
+					C8680B8617C2C0F700EC42A2 = {
+						TestTargetID = C8680B6517C2C0F600EC42A2;
+					};
+				};
+			};
+			buildConfigurationList = C8680B6117C2C0F600EC42A2 /* Build configuration list for PBXProject "Tint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8680B5D17C2C0F600EC42A2;
+			productRefGroup = C8680B6717C2C0F600EC42A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8680B6517C2C0F600EC42A2 /* Tint */,
+				C8680B8617C2C0F700EC42A2 /* TintTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8680B6417C2C0F600EC42A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8680B8217C2C0F600EC42A2 /* Images.xcassets in Resources */,
+				C8680B7417C2C0F600EC42A2 /* InfoPlist.strings in Resources */,
+				C8680B9F17C2C60C00EC42A2 /* captech_img.png in Resources */,
+				C8680B7D17C2C0F600EC42A2 /* Main.storyboard in Resources */,
+				C84F092B17CC239500F78FEF /* apple.png in Resources */,
+				C84F092C17CC239500F78FEF /* ios-7.png in Resources */,
+				C887143117CD756F00150183 /* apple-large.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8680B8517C2C0F700EC42A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8680B9317C2C0F700EC42A2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8680B6217C2C0F600EC42A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8680B7617C2C0F600EC42A2 /* main.m in Sources */,
+				C84F092817CC20E700F78FEF /* CTTintedViewsViewController.m in Sources */,
+				C8680BA217C2CB1800EC42A2 /* CTButtonControlledViewController.m in Sources */,
+				C8680B7A17C2C0F600EC42A2 /* CTAppDelegate.m in Sources */,
+				C8680B8017C2C0F600EC42A2 /* CTViewController.m in Sources */,
+				C85E076517D7F5D300D07E20 /* CTImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8680B8317C2C0F700EC42A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8680B9517C2C0F700EC42A2 /* TintTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8680B8D17C2C0F700EC42A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8680B6517C2C0F600EC42A2 /* Tint */;
+			targetProxy = C8680B8C17C2C0F700EC42A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8680B7217C2C0F600EC42A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8680B7317C2C0F600EC42A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C8680B7B17C2C0F600EC42A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8680B7C17C2C0F600EC42A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8680B9117C2C0F700EC42A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8680B9217C2C0F700EC42A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8680B9617C2C0F700EC42A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8680B9717C2C0F700EC42A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8680B9917C2C0F700EC42A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tint/Tint-Prefix.pch";
+				INFOPLIST_FILE = "Tint/Tint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C8680B9A17C2C0F700EC42A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tint/Tint-Prefix.pch";
+				INFOPLIST_FILE = "Tint/Tint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C8680B9C17C2C0F700EC42A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tint.app/Tint";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tint/Tint-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TintTests/TintTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C8680B9D17C2C0F700EC42A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tint.app/Tint";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tint/Tint-Prefix.pch";
+				INFOPLIST_FILE = "TintTests/TintTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8680B6117C2C0F600EC42A2 /* Build configuration list for PBXProject "Tint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8680B9617C2C0F700EC42A2 /* Debug */,
+				C8680B9717C2C0F700EC42A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8680B9817C2C0F700EC42A2 /* Build configuration list for PBXNativeTarget "Tint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8680B9917C2C0F700EC42A2 /* Debug */,
+				C8680B9A17C2C0F700EC42A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8680B9B17C2C0F700EC42A2 /* Build configuration list for PBXNativeTarget "TintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8680B9C17C2C0F700EC42A2 /* Debug */,
+				C8680B9D17C2C0F700EC42A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8680B5E17C2C0F600EC42A2 /* Project object */;
+}
