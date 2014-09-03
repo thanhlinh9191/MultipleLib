@@ -2040,6 +2040,47 @@
          </Group>
       </Group>
       <Group
+         location = "group:Reorder-FRC"
+         name = "Reorder-FRC">
+         <Group
+            location = "group:Classes"
+            name = "Classes">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:RootViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:RootViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:DataModel.xcdatamodel">
+         </FileRef>
+         <FileRef
+            location = "group:Favorite Things.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:MainWindow.xib">
+         </FileRef>
+         <FileRef
+            location = "group:Prefix.pch">
+         </FileRef>
+         <FileRef
+            location = "group:RootViewController.xib">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:fetch_result_controller"
          name = "fetch_result_controller">
          <Group
