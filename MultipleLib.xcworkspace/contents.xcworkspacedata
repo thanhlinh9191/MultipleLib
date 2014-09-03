@@ -3815,6 +3815,106 @@
          </Group>
       </Group>
       <Group
+         location = "group:Autolayout with XCode5"
+         name = "Autolayout with XCode5">
+         <FileRef
+            location = "group:Auto Layout with XCode5.pdf">
+         </FileRef>
+         <Group
+            location = "group:PracticeAutolayout"
+            name = "PracticeAutolayout">
+            <Group
+               location = "group:PracticeAutolayout"
+               name = "PracticeAutolayout">
+               <FileRef
+                  location = "group:AppDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AppDelegate.m">
+               </FileRef>
+               <Group
+                  location = "group:Base.lproj"
+                  name = "Base.lproj">
+                  <FileRef
+                     location = "group:Main.storyboard">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:CreditVC.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CreditVC.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CustomView.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CustomView.m">
+               </FileRef>
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Images.xcassets"
+                  name = "Images.xcassets">
+                  <Group
+                     location = "group:AppIcon.appiconset"
+                     name = "AppIcon.appiconset">
+                     <FileRef
+                        location = "group:Contents.json">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:LaunchImage.launchimage"
+                     name = "LaunchImage.launchimage">
+                     <FileRef
+                        location = "group:Contents.json">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:LoadTVC.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LoadTVC.m">
+               </FileRef>
+               <FileRef
+                  location = "group:main.m">
+               </FileRef>
+               <FileRef
+                  location = "group:PracticeAutolayout-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:PracticeAutolayout-Prefix.pch">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:PracticeAutolayout.xcodeproj">
+            </FileRef>
+            <Group
+               location = "group:PracticeAutolayoutTests"
+               name = "PracticeAutolayoutTests">
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:PracticeAutolayoutTests-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:PracticeAutolayoutTests.m">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
          location = "group:What&apos;s new in Interface Builder"
          name = "What&apos;s new in Interface Builder">
          <Group
