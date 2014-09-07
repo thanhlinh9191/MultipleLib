@@ -2022,6 +2022,63 @@
       location = "group:Sample Application"
       name = "Sample Application">
       <Group
+         location = "group:NSURLConnection-master"
+         name = "NSURLConnection-master">
+         <Group
+            location = "group:NSURLConnection"
+            name = "NSURLConnection">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:MainMenu.xib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:Credits.rtf">
+               </FileRef>
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Images.xcassets"
+               name = "Images.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSURLConnection-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:NSURLConnection-Prefix.pch">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:NSURLConnection.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:RecipeBook"
          name = "RecipeBook">
          <Group
