@@ -9,6 +9,132 @@
       location = "group:Sample Library"
       name = "Sample Library">
       <Group
+         location = "group:AFResumingDownload"
+         name = "AFResumingDownload">
+         <Group
+            location = "group:AFResumingDownload"
+            name = "AFResumingDownload">
+            <FileRef
+               location = "group:AFDownloadRequestOperation.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFDownloadRequestOperation.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFHTTPClient.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFHTTPClient.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFHTTPRequestOperation.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFHTTPRequestOperation.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFImageRequestOperation.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFImageRequestOperation.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFJSONRequestOperation.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFJSONRequestOperation.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFNetworkActivityIndicatorManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFNetworkActivityIndicatorManager.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFNetworking.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFPropertyListRequestOperation.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFPropertyListRequestOperation.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFResumingDownload-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:AFResumingDownload-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:AFURLConnectionOperation.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFURLConnectionOperation.m">
+            </FileRef>
+            <FileRef
+               location = "group:AFXMLRequestOperation.h">
+            </FileRef>
+            <FileRef
+               location = "group:AFXMLRequestOperation.m">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:AudioPlayer.h">
+            </FileRef>
+            <FileRef
+               location = "group:AudioPlayer.m">
+            </FileRef>
+            <FileRef
+               location = "group:AudioStreamer.h">
+            </FileRef>
+            <FileRef
+               location = "group:AudioStreamer.m">
+            </FileRef>
+            <FileRef
+               location = "group:CHANGES">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:icon.png">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <FileRef
+               location = "group:UIImageView+AFNetworking.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIImageView+AFNetworking.m">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.xib">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AFResumingDownload.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:TCBlobDownload-master"
          name = "TCBlobDownload-master">
          <Group
