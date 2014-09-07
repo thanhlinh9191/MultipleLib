@@ -2511,6 +2511,175 @@
          </FileRef>
       </Group>
       <Group
+         location = "group:NSURLSession-ByteClub"
+         name = "NSURLSession-ByteClub">
+         <Group
+            location = "group:ByteClub"
+            name = "ByteClub">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:ByteClub-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:ByteClub-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:DBFile.h">
+            </FileRef>
+            <FileRef
+               location = "group:DBFile.m">
+            </FileRef>
+            <FileRef
+               location = "group:Dropbox.h">
+            </FileRef>
+            <FileRef
+               location = "group:Dropbox.m">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Images.xcassets"
+               name = "Images.xcassets">
+               <Group
+                  location = "group:117-todo.imageset"
+                  name = "117-todo.imageset">
+                  <FileRef
+                     location = "group:117-todo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:117-todo@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:40-inbox.imageset"
+                  name = "40-inbox.imageset">
+                  <FileRef
+                     location = "group:40-inbox.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:40-inbox@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:42-photos.imageset"
+                  name = "42-photos.imageset">
+                  <FileRef
+                     location = "group:42-photos.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:42-photos@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:44-shoebox.imageset"
+                  name = "44-shoebox.imageset">
+                  <FileRef
+                     location = "group:44-shoebox.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:44-shoebox@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:LaunchImage.launchimage"
+                  name = "LaunchImage.launchimage">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:NoteDetailsViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:NoteDetailsViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:NotesViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:NotesViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:OAuthLoginViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:OAuthLoginViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:PhotoCell.h">
+            </FileRef>
+            <FileRef
+               location = "group:PhotoCell.m">
+            </FileRef>
+            <FileRef
+               location = "group:PhotosViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:PhotosViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ByteClub.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:ByteClubTests"
+            name = "ByteClubTests">
+            <FileRef
+               location = "group:ByteClubTests-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:ByteClubTests.m">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
          location = "group:RecipeBook"
          name = "RecipeBook">
          <Group
