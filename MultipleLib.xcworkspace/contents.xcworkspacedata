@@ -2022,6 +2022,57 @@
       location = "group:Sample Application"
       name = "Sample Application">
       <Group
+         location = "group:ConnectionExample"
+         name = "ConnectionExample">
+         <Group
+            location = "group:ConnectionExample"
+            name = "ConnectionExample">
+            <FileRef
+               location = "group:ConnectionExample-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:ConnectionExample-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:ConnectionExampleAppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:ConnectionExampleAppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:ConnectionExampleViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ConnectionExampleViewController.m">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:ConnectionExampleViewController.xib">
+               </FileRef>
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:WebViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:WebViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:WebViewController.xib">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ConnectionExample.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:NSURLConnection-master"
          name = "NSURLConnection-master">
          <Group
