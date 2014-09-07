@@ -5069,6 +5069,649 @@
                location = "group:README.md">
             </FileRef>
          </Group>
+         <Group
+            location = "group:GPUImage-Video Blurring Final"
+            name = "GPUImage-Video Blurring Final">
+            <FileRef
+               location = "group:BlurView.h">
+            </FileRef>
+            <FileRef
+               location = "group:BlurView.m">
+            </FileRef>
+            <Group
+               location = "group:GPUImage.framework"
+               name = "GPUImage.framework">
+               <FileRef
+                  location = "group:GPUImage">
+               </FileRef>
+               <FileRef
+                  location = "group:Headers">
+               </FileRef>
+               <Group
+                  location = "group:Versions"
+                  name = "Versions">
+                  <Group
+                     location = "group:A"
+                     name = "A">
+                     <FileRef
+                        location = "group:GPUImage">
+                     </FileRef>
+                     <Group
+                        location = "group:Headers"
+                        name = "Headers">
+                        <FileRef
+                           location = "group:GLProgram.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImage.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImage3x3ConvolutionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImage3x3TextureSamplingFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageAdaptiveThresholdFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageAddBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageAlphaBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageAmatorkaFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageAverageColor.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageAverageLuminanceThresholdFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageBilateralFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageBoxBlurFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageBrightnessFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageBuffer.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageBulgeDistortionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageCannyEdgeDetectionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageCGAColorspaceFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageChromaKeyBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageChromaKeyFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageClosingFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageColorBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageColorBurnBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageColorDodgeBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageColorInvertFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageColorMatrixFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageColorPackingFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageContext.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageContrastFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageCropFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageCrosshairGenerator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageCrosshatchFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageDarkenBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageDifferenceBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageDilationFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageDirectionalNonMaximumSuppressionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUimageDirectionalSobelEdgeDetectionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageDissolveBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageDivideBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageEmbossFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageErosionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageExclusionBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageExposureFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageFalseColorFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageFASTCornerDetectionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageFilterGroup.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageFilterPipeline.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageGammaFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageGaussianBlurFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageGaussianBlurPositionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageGaussianSelectiveBlurFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageGlassSphereFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageGrayscaleFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageHalftoneFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageHardLightBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageHarrisCornerDetectionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageHazeFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageHighlightShadowFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageHighPassFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageHistogramFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageHistogramGenerator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageHoughTransformLineDetector.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageHSBFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageHueBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageHueFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageiOSBlurFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageJFAVoronoiFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageKuwaharaFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageKuwaharaRadius3Filter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageLanczosResamplingFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageLaplacianFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageLevelsFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageLightenBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageLinearBurnBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageLineGenerator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageLocalBinaryPatternFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageLookupFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageLowPassFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageLuminanceRangeFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageLuminanceThresholdFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageLuminosity.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageLuminosityBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageMaskFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageMedianFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageMissEtikateFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageMonochromeFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageMosaicFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageMotionBlurFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageMotionDetector.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageMovie.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageMovieComposition.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageMovieWriter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageMultiplyBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageNobleCornerDetectionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageNonMaximumSuppressionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageNormalBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageOpacityFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageOpeningFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageOutput.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageOverlayBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageParallelCoordinateLineTransformFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImagePerlinNoiseFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImagePicture.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImagePinchDistortionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImagePixellateFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImagePixellatePositionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImagePoissonBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImagePolarPixellateFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImagePolkaDotFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImagePosterizeFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImagePrewittEdgeDetectionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageRawDataInput.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageRawDataOutput.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageRGBClosingFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageRGBDilationFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageRGBErosionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageRGBFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageRGBOpeningFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSaturationBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSaturationFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageScreenBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSepiaFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSharpenFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageShiTomasiFeatureDetectionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSingleComponentGaussianBlurFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSketchFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSmoothToonFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSobelEdgeDetectionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSoftEleganceFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSoftLightBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSolidColorGenerator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSourceOverBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSphereRefractionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageStillCamera.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageStretchDistortionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSubtractBlendFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageSwirlFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageTextureInput.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageTextureOutput.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageThreeInputFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageThresholdEdgeDetectionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageThresholdedNonMaximumSuppressionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageThresholdSketchFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageTiltShiftFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageToneCurveFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageToonFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageTransformFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageTwoInputCrossTextureSamplingFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageTwoInputFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageTwoPassFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageTwoPassTextureSamplingFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageUIElement.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageUnsharpMaskFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageVideoCamera.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageView.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageVignetteFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageVoronoiConsumerFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageWeakPixelInclusionFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageWhiteBalanceFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageXYDerivativeFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:GPUImageZoomBlurFilter.h">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <FileRef
+                     location = "group:Current">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Video Blurring"
+               name = "Video Blurring">
+               <FileRef
+                  location = "group:AppDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AppDelegate.m">
+               </FileRef>
+               <Group
+                  location = "group:Base.lproj"
+                  name = "Base.lproj">
+                  <FileRef
+                     location = "group:Main.storyboard">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Camera.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Camera@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:DropDownMenuController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:DropDownMenuController.m">
+               </FileRef>
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:FilmStrip.png">
+               </FileRef>
+               <FileRef
+                  location = "group:FilmStrip@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:Images.xcassets"
+                  name = "Images.xcassets">
+                  <Group
+                     location = "group:AppIcon.appiconset"
+                     name = "AppIcon.appiconset">
+                     <FileRef
+                        location = "group:Contents.json">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:LaunchImage.launchimage"
+                     name = "LaunchImage.launchimage">
+                     <FileRef
+                        location = "group:Contents.json">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:main.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Menu.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Menu@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:PlayButton.png">
+               </FileRef>
+               <FileRef
+                  location = "group:PlayButton@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:RecordDot.png">
+               </FileRef>
+               <FileRef
+                  location = "group:RecordDot@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:RecordStop.png">
+               </FileRef>
+               <FileRef
+                  location = "group:RecordStop@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:StopButton.png">
+               </FileRef>
+               <FileRef
+                  location = "group:StopButton@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:UIView+Screenshot.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIView+Screenshot.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Video Blurring-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Video Blurring-Prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:ViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ViewController.m">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Video Blurring.xcodeproj">
+            </FileRef>
+            <Group
+               location = "group:Video BlurringTests"
+               name = "Video BlurringTests">
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+               </Group>
+            </Group>
+         </Group>
       </Group>
       <Group
          location = "group:ImageGrabberAsync"
