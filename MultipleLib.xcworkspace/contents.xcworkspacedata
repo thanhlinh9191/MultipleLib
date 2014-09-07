@@ -6004,6 +6004,152 @@
          </FileRef>
       </Group>
       <Group
+         location = "group:custom-UIButton-inManyWays"
+         name = "custom-UIButton-inManyWays">
+         <Group
+            location = "group:Custom UIButtons"
+            name = "Custom UIButtons">
+            <FileRef
+               location = "group:button.png">
+            </FileRef>
+            <FileRef
+               location = "group:button@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:buttonHighlighted.png">
+            </FileRef>
+            <FileRef
+               location = "group:buttonHighlighted@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:CBAppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:CBAppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:CBBezier.h">
+            </FileRef>
+            <FileRef
+               location = "group:CBBezier.m">
+            </FileRef>
+            <FileRef
+               location = "group:CBHybrid.h">
+            </FileRef>
+            <FileRef
+               location = "group:CBHybrid.m">
+            </FileRef>
+            <FileRef
+               location = "group:CBLayer.h">
+            </FileRef>
+            <FileRef
+               location = "group:CBLayer.m">
+            </FileRef>
+            <FileRef
+               location = "group:CBViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:CBViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:Custom UIButtons-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Custom UIButtons-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default@2x.png">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+               <FileRef
+                  location = "group:MainStoryboard.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Icon-72.png">
+            </FileRef>
+            <FileRef
+               location = "group:Icon-72@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Icon-Small-50.png">
+            </FileRef>
+            <FileRef
+               location = "group:Icon-Small-50@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Icon-Small.png">
+            </FileRef>
+            <FileRef
+               location = "group:Icon-Small@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Icon.png">
+            </FileRef>
+            <FileRef
+               location = "group:Icon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:iTunesArtwork.png">
+            </FileRef>
+            <FileRef
+               location = "group:iTunesArtwork@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:resizableButton.png">
+            </FileRef>
+            <FileRef
+               location = "group:resizableButton@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:resizableButtonHighlighted.png">
+            </FileRef>
+            <FileRef
+               location = "group:resizableButtonHighlighted@2x.png">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Custom UIButtons.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Custom UIButtonsTests"
+            name = "Custom UIButtonsTests">
+            <FileRef
+               location = "group:Custom UIButtonsTests-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Custom_UIButtonsTests.h">
+            </FileRef>
+            <FileRef
+               location = "group:Custom_UIButtonsTests.m">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:CoolTable"
          name = "CoolTable">
          <Group
