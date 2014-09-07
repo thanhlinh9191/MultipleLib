@@ -67,6 +67,44 @@ NSURLSessionUploadTask *uploadTask;
   [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
   NSString *photoDir = [NSString stringWithFormat:@"https://api.dropbox.com/1/search/dropbox/%@/photos?query=.jpg",appFolder];
   NSURL *url = [NSURL URLWithString:photoDir];
+    
+    /*
+     //First here is how you make this call when using NSURLConnection:
+     NSString *londonWeatherUrl =
+     @"http://api.openweathermap.org/data/2.5/weather?q=London,uk";
+    NSURLRequest *request = [NSURLRequest requestWithURL:
+                             [NSURL URLWithString:londonWeatherUrl]];
+    
+    [NSURLConnection sendAsynchronousRequest:request
+                                       queue:[NSOperationQueue mainQueue]
+                           completionHandler:^(NSURLResponse *response,
+                                               NSData *data,
+                                               NSError *connectionError) {
+                               // handle response
+                           }];
+     //second, use url session
+     NSURLSession *session = [NSURLSession sharedSession];
+     [[session dataTaskWithURL:[NSURL URLWithString:londonWeatherUrl]
+     completionHandler:^(NSData *data,
+     NSURLResponse *response,
+     NSError *error) {
+     // handle response
+     
+     }] resume];
+     //Here is what the code for the same data task would look like using AFNetworking 1.x:
+     NSURLRequest *request = [NSURLRequest requestWithURL:
+     [NSURL URLWithString:londonWeatherUrl]];
+     
+     AFJSONRequestOperation *operation =
+     [AFJSONRequestOperation JSONRequestOperationWithRequest:request
+     success:^(NSURLRequest *request,
+     NSHTTPURLResponse *response,
+     id JSON) {
+     // handle response
+     } failure:nil];
+     [operation start];
+     One of the benefits of using AFNetworking is the data type classes for handling response data. Using AFJSONRequestOperation (or the similar classes for XML and plist) the success block has already parsed the response and returns the data for you. With NSURLSession you receive NSData back in the completion handler, so you would need to convert the NSData into JSON or other formats.
+     */
   
   [[_session dataTaskWithURL:url completionHandler:^(NSData
                                                      *data, NSURLResponse *response, NSError *error) {
