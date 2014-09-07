@@ -1470,6 +1470,9 @@
                location = "group:UIWebView+AFNetworking.m">
             </FileRef>
          </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
       </Group>
       <Group
          location = "group:AFNetWorking_Weather_Final"
