@@ -3066,6 +3066,210 @@
          </FileRef>
       </Group>
       <Group
+         location = "container:"
+         name = "ImageProcessing">
+         <Group
+            location = "group:ImageProcessing-SpookCam-Pixel"
+            name = "ImageProcessing-SpookCam-Pixel">
+            <Group
+               location = "group:SpookCam"
+               name = "SpookCam">
+               <Group
+                  location = "group:SpookCam"
+                  name = "SpookCam">
+                  <FileRef
+                     location = "group:AppDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AppDelegate.m">
+                  </FileRef>
+                  <Group
+                     location = "group:Base.lproj"
+                     name = "Base.lproj">
+                     <FileRef
+                        location = "group:Main_iPhone.storyboard">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:en.lproj"
+                     name = "en.lproj">
+                     <FileRef
+                        location = "group:InfoPlist.strings">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ghost.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ImageProcessor.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ImageProcessor.m">
+                  </FileRef>
+                  <Group
+                     location = "group:Images.xcassets"
+                     name = "Images.xcassets">
+                     <Group
+                        location = "group:AppIcon.appiconset"
+                        name = "AppIcon.appiconset">
+                        <FileRef
+                           location = "group:Contents.json">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:LaunchImage.launchimage"
+                        name = "LaunchImage.launchimage">
+                        <FileRef
+                           location = "group:Contents.json">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <FileRef
+                     location = "group:main.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SpookCam-Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SpookCam-Prefix.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIImage+OrientationFix.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIImage+OrientationFix.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ViewController.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:SpookCam.xcodeproj">
+               </FileRef>
+               <Group
+                  location = "group:SpookCamTests"
+                  name = "SpookCamTests">
+                  <Group
+                     location = "group:en.lproj"
+                     name = "en.lproj">
+                     <FileRef
+                        location = "group:InfoPlist.strings">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:SpookCamTests-Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SpookCamTests.m">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:SpookCam-CoreGraphics"
+            name = "SpookCam-CoreGraphics">
+            <Group
+               location = "group:SpookCam"
+               name = "SpookCam">
+               <Group
+                  location = "group:SpookCam"
+                  name = "SpookCam">
+                  <FileRef
+                     location = "group:AppDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AppDelegate.m">
+                  </FileRef>
+                  <Group
+                     location = "group:Base.lproj"
+                     name = "Base.lproj">
+                     <FileRef
+                        location = "group:Main_iPhone.storyboard">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:en.lproj"
+                     name = "en.lproj">
+                     <FileRef
+                        location = "group:InfoPlist.strings">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ghost.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ImageProcessor.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ImageProcessor.m">
+                  </FileRef>
+                  <Group
+                     location = "group:Images.xcassets"
+                     name = "Images.xcassets">
+                     <Group
+                        location = "group:AppIcon.appiconset"
+                        name = "AppIcon.appiconset">
+                        <FileRef
+                           location = "group:Contents.json">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:LaunchImage.launchimage"
+                        name = "LaunchImage.launchimage">
+                        <FileRef
+                           location = "group:Contents.json">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <FileRef
+                     location = "group:main.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SpookCam-Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SpookCam-Prefix.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIImage+OrientationFix.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIImage+OrientationFix.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ViewController.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:SpookCam.xcodeproj">
+               </FileRef>
+               <Group
+                  location = "group:SpookCamTests"
+                  name = "SpookCamTests">
+                  <Group
+                     location = "group:en.lproj"
+                     name = "en.lproj">
+                     <FileRef
+                        location = "group:InfoPlist.strings">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:SpookCamTests-Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SpookCamTests.m">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+      <Group
          location = "group:ImageGrabberAsync"
          name = "ImageGrabberAsync">
          <Group
