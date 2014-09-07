@@ -3069,8 +3069,8 @@
          location = "container:"
          name = "ImageProcessing">
          <Group
-            location = "group:ImageProcessing-SpookCam-Pixel"
-            name = "ImageProcessing-SpookCam-Pixel">
+            location = "group:SpookCam-Pixel"
+            name = "SpookCam-Pixel">
             <Group
                location = "group:SpookCam"
                name = "SpookCam">
