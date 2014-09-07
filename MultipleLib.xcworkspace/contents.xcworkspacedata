@@ -3069,6 +3069,28 @@
          location = "container:"
          name = "ImageProcessing">
          <Group
+            location = "group:UIImage-categories"
+            name = "UIImage-categories">
+            <FileRef
+               location = "group:UIImage+Alpha.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIImage+Alpha.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIImage+Resize.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIImage+Resize.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIImage+RoundedCorner.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIImage+RoundedCorner.m">
+            </FileRef>
+         </Group>
+         <Group
             location = "group:SpookCam-Pixel"
             name = "SpookCam-Pixel">
             <Group
