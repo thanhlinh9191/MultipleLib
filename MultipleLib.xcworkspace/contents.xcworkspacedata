@@ -9,6 +9,258 @@
       location = "group:Sample Library"
       name = "Sample Library">
       <Group
+         location = "group:TCBlobDownload-master"
+         name = "TCBlobDownload-master">
+         <Group
+            location = "group:Example"
+            name = "Example">
+            <Group
+               location = "group:TCBlobDownloadExample"
+               name = "TCBlobDownloadExample">
+               <Group
+                  location = "group:AppDelegate"
+                  name = "AppDelegate">
+                  <FileRef
+                     location = "group:AppDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AppDelegate.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Default-568h@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Default.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Default@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:main.m">
+               </FileRef>
+               <Group
+                  location = "group:MultipleViewController"
+                  name = "MultipleViewController">
+                  <FileRef
+                     location = "group:MultipleViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MultipleViewController.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:SimpleViewController"
+                  name = "SimpleViewController">
+                  <FileRef
+                     location = "group:SimpleViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SimpleViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SimpleViewController.xib">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:TCBlobDownloadExample-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:TCBlobDownloadExample-Prefix.pch">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:TCBlobDownloadExample.xcodeproj">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:TCBlobDownload"
+            name = "TCBlobDownload">
+            <Group
+               location = "group:Docs"
+               name = "Docs">
+               <Group
+                  location = "group:html"
+                  name = "html">
+                  <Group
+                     location = "group:Classes"
+                     name = "Classes">
+                     <FileRef
+                        location = "group:TCBlobDownloader.html">
+                     </FileRef>
+                     <FileRef
+                        location = "group:TCBlobDownloadManager.html">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Constants"
+                     name = "Constants">
+                     <FileRef
+                        location = "group:TCBlobDownloadError.html">
+                     </FileRef>
+                     <FileRef
+                        location = "group:TCBlobDownloadState.html">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:css"
+                     name = "css">
+                     <FileRef
+                        location = "group:styles.css">
+                     </FileRef>
+                     <FileRef
+                        location = "group:stylesPrint.css">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:hierarchy.html">
+                  </FileRef>
+                  <Group
+                     location = "group:img"
+                     name = "img">
+                     <FileRef
+                        location = "group:button_bar_background.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_open.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:library_background.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:title_background.png">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:index.html">
+                  </FileRef>
+                  <Group
+                     location = "group:Protocols"
+                     name = "Protocols">
+                     <FileRef
+                        location = "group:TCBlobDownloaderDelegate.html">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:TCBlobDownloadDocset.zip">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:TCBlobDownload"
+               name = "TCBlobDownload">
+               <Group
+                  location = "group:Categories"
+                  name = "Categories">
+                  <FileRef
+                     location = "group:NSFileManager+TCBlobDownload.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSFileManager+TCBlobDownload.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIDevice-Hardware.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIDevice-Hardware.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:Localizable.strings">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:fr.lproj"
+                  name = "fr.lproj">
+                  <FileRef
+                     location = "group:Localizable.strings">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:TCBlobDownload-Prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:TCBlobDownload.h">
+               </FileRef>
+               <FileRef
+                  location = "group:TCBlobDownloader.h">
+               </FileRef>
+               <FileRef
+                  location = "group:TCBlobDownloader.m">
+               </FileRef>
+               <FileRef
+                  location = "group:TCBlobDownloadManager.h">
+               </FileRef>
+               <FileRef
+                  location = "group:TCBlobDownloadManager.m">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:TCBlobDownload.xcodeproj">
+            </FileRef>
+            <Group
+               location = "group:TCBlobDownloadTests"
+               name = "TCBlobDownloadTests">
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:TCBlobDownloadErrorTests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:TCBlobDownloadManagerTests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:TCBlobDownloadTests-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:TCBlobDownloadTests-Prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:TCBlobDownloadTests.m">
+               </FileRef>
+               <FileRef
+                  location = "group:TCBlobDownloadTestsBase.h">
+               </FileRef>
+               <FileRef
+                  location = "group:TCBlobDownloadTestsBase.m">
+               </FileRef>
+               <FileRef
+                  location = "group:XCTestCase+AsyncTesting.h">
+               </FileRef>
+               <FileRef
+                  location = "group:XCTestCase+AsyncTesting.m">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:TCBlobDownload.podspec">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:Mogenerator"
          name = "Mogenerator">
          <FileRef
