@@ -5712,6 +5712,107 @@
                </Group>
             </Group>
          </Group>
+         <Group
+            location = "group:GPUtutorial-Instagram"
+            name = "GPUtutorial-Instagram">
+            <Group
+               location = "group:framework"
+               name = "framework">
+               <Group
+                  location = "group:Resources"
+                  name = "Resources">
+               </Group>
+            </Group>
+            <Group
+               location = "group:GPUtutorial"
+               name = "GPUtutorial">
+               <FileRef
+                  location = "group:Default-568h@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Default.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Default@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:demo01.png">
+               </FileRef>
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MainStoryboard.storyboard">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GPUtutorial-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:GPUtutorial-Prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:GPUtutorialAppDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:GPUtutorialAppDelegate.m">
+               </FileRef>
+               <FileRef
+                  location = "group:GPUtutorialViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:GPUtutorialViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:main.m">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:GPUtutorial.xcodeproj">
+            </FileRef>
+            <FileRef
+               location = "group:GPUtutorialCell.h">
+            </FileRef>
+            <FileRef
+               location = "group:GPUtutorialCell.m">
+            </FileRef>
+            <FileRef
+               location = "group:lookup_cooling.png">
+            </FileRef>
+            <FileRef
+               location = "group:lookup_cooling2.png">
+            </FileRef>
+            <FileRef
+               location = "group:lookup_filter1.png">
+            </FileRef>
+            <FileRef
+               location = "group:lookup_filter2.png">
+            </FileRef>
+            <FileRef
+               location = "group:lookup_highkey.png">
+            </FileRef>
+            <FileRef
+               location = "group:lookup_infrared.png">
+            </FileRef>
+            <FileRef
+               location = "group:lookup_Invert.png">
+            </FileRef>
+            <FileRef
+               location = "group:lookup_sepia.png">
+            </FileRef>
+            <FileRef
+               location = "group:lookup_sepia2.png">
+            </FileRef>
+            <FileRef
+               location = "group:lookup_vibrance.png">
+            </FileRef>
+            <FileRef
+               location = "group:lookup_warming.png">
+            </FileRef>
+         </Group>
       </Group>
       <Group
          location = "group:ImageGrabberAsync"
