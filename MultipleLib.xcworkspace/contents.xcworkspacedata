@@ -2403,6 +2403,94 @@
       location = "group:Sample Application"
       name = "Sample Application">
       <Group
+         location = "container:"
+         name = "URLSchemaDemo">
+         <Group
+            location = "group:CallCustomURL"
+            name = "CallCustomURL">
+            <FileRef
+               location = "group:CallCustomURL.xcodeproj">
+            </FileRef>
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <Group
+               location = "group:Sandbox"
+               name = "Sandbox">
+               <FileRef
+                  location = "group:CallCustomURL-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:CallCustomURL-Prefix.pch">
+               </FileRef>
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:main.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SandboxAppDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SandboxAppDelegate.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SandboxViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SandboxViewController.m">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:CreateCustomURL"
+            name = "CreateCustomURL">
+            <FileRef
+               location = "group:CreateCustomURL.xcodeproj">
+            </FileRef>
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <Group
+               location = "group:Sandbox"
+               name = "Sandbox">
+               <FileRef
+                  location = "group:CreateCustomURL-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:CreateCustomURL-Prefix.pch">
+               </FileRef>
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:main.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SandboxAppDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SandboxAppDelegate.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SandboxViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SandboxViewController.m">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
          location = "group:ConnectionExample"
          name = "ConnectionExample">
          <Group
