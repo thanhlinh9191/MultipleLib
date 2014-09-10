@@ -2770,6 +2770,141 @@
                </Group>
             </Group>
          </Group>
+         <Group
+            location = "group:DTOAuth-master"
+            name = "DTOAuth-master">
+            <Group
+               location = "group:Core"
+               name = "Core">
+               <FileRef
+                  location = "group:Core-Prefix.pch">
+               </FileRef>
+               <Group
+                  location = "group:Source"
+                  name = "Source">
+                  <FileRef
+                     location = "group:DTOAuthClient.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DTOAuthClient.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DTOAuthFunctions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DTOAuthFunctions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DTOAuthWebViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DTOAuthWebViewController.m">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Demo"
+               name = "Demo">
+               <FileRef
+                  location = "group:Demo-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Demo-Prefix.pch">
+               </FileRef>
+               <Group
+                  location = "group:Resources"
+                  name = "Resources">
+                  <Group
+                     location = "group:Base.lproj"
+                     name = "Base.lproj">
+                     <FileRef
+                        location = "group:Main.storyboard">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Images.xcassets"
+                     name = "Images.xcassets">
+                     <Group
+                        location = "group:AppIcon.appiconset"
+                        name = "AppIcon.appiconset">
+                        <FileRef
+                           location = "group:Contents.json">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:LaunchImage.launchimage"
+                        name = "LaunchImage.launchimage">
+                        <FileRef
+                           location = "group:Contents.json">
+                        </FileRef>
+                     </Group>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:Source"
+                  name = "Source">
+                  <FileRef
+                     location = "group:AppDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AppDelegate.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DiscogsOAuthClient.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DiscogsOAuthClient.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DiscogsViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DiscogsViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:main.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:OAuthSettings.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TwitterOAuthClient.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TwitterOAuthClient.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TwitterViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TwitterViewController.m">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:DTOAuth.xcodeproj">
+            </FileRef>
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:Readme.markdown">
+            </FileRef>
+            <Group
+               location = "group:Test"
+               name = "Test">
+               <Group
+                  location = "group:Source"
+                  name = "Source">
+                  <FileRef
+                     location = "group:DTOAuthClientTest.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Test-Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
       </Group>
       <Group
          location = "container:"
