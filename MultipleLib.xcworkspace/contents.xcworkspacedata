@@ -6626,6 +6626,94 @@
             location = "container:"
             name = "ContainerViewCustom">
             <Group
+               location = "group:DemoContainer"
+               name = "DemoContainer">
+               <Group
+                  location = "group:DemoContainer"
+                  name = "DemoContainer">
+                  <FileRef
+                     location = "group:AppDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AppDelegate.m">
+                  </FileRef>
+                  <Group
+                     location = "group:Base.lproj"
+                     name = "Base.lproj">
+                     <FileRef
+                        location = "group:Main.storyboard">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ContainerVC.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ContainerVC.m">
+                  </FileRef>
+                  <Group
+                     location = "group:Images.xcassets"
+                     name = "Images.xcassets">
+                     <Group
+                        location = "group:AppIcon.appiconset"
+                        name = "AppIcon.appiconset">
+                        <FileRef
+                           location = "group:Contents.json">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:LaunchImage.launchimage"
+                        name = "LaunchImage.launchimage">
+                        <FileRef
+                           location = "group:Contents.json">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:main.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MainVC.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MainVC.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MenuVC.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MenuVC.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ProfileVC.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ProfileVC.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ShareSettings.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ShareSettings.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:DemoContainer.xcodeproj">
+               </FileRef>
+               <Group
+                  location = "group:DemoContainerTests"
+                  name = "DemoContainerTests">
+                  <FileRef
+                     location = "group:DemoContainerTests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
                location = "group:EmbeddedSwapping-master"
                name = "EmbeddedSwapping-master">
                <Group
