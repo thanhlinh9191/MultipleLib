@@ -6623,6 +6623,91 @@
          location = "container:"
          name = "CustomizeUI">
          <Group
+            location = "container:"
+            name = "ContainerViewCustom">
+            <Group
+               location = "group:EmbeddedSwapping-master"
+               name = "EmbeddedSwapping-master">
+               <Group
+                  location = "group:EmbeddedSwapping"
+                  name = "EmbeddedSwapping">
+                  <FileRef
+                     location = "group:AppDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AppDelegate.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ContainerViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ContainerViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default-568h@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:EmbeddedSwapping-Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:EmbeddedSwapping-Prefix.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:EmptySegue.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:EmptySegue.m">
+                  </FileRef>
+                  <Group
+                     location = "group:en.lproj"
+                     name = "en.lproj">
+                     <FileRef
+                        location = "group:InfoPlist.strings">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MainStoryboard.storyboard">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FirstViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FirstViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:main.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SecondViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SecondViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ViewController.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:EmbeddedSwapping.xcodeproj">
+               </FileRef>
+               <FileRef
+                  location = "group:MIT-LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
             location = "group:Sample Application/custom-UIButton-inManyWays"
             name = "custom-UIButton-inManyWays">
             <Group
