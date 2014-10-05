@@ -8494,7 +8494,7 @@
          location = "container:"
          name = "ReactiveCocoa">
          <Group
-            location = "group:ReactivePlayground-Final"
+            location = "group:Sample Application/ReactivePlayground-Final"
             name = "ReactivePlayground-Final">
             <FileRef
                location = "group:Podfile">
@@ -9724,7 +9724,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:TwitterInstant-Final"
+            location = "group:Sample Application/TwitterInstant-Final"
             name = "TwitterInstant-Final">
             <FileRef
                location = "group:Podfile">
