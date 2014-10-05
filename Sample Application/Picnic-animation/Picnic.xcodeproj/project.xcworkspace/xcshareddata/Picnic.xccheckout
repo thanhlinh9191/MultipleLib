@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7D3FD843-08F9-4326-85D3-9DE0929A23E5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Picnic</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C60CFCF198A780056592C391C0E4482C9EA3897B</key>
+		<string>https://github.com/thanhlinh9191/MultipleLib.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sample Application/Picnic-animation/Picnic.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C60CFCF198A780056592C391C0E4482C9EA3897B</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thanhlinh9191/MultipleLib.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C60CFCF198A780056592C391C0E4482C9EA3897B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C60CFCF198A780056592C391C0E4482C9EA3897B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MultipleLib</string>
+		</dict>
+	</array>
+</dict>
+</plist>

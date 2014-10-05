@@ -2406,95 +2406,49 @@
          location = "container:"
          name = "Network">
          <Group
-            location = "container:"
-            name = "URLSchemaDemo">
+            location = "group:Sample Application/CreateCustomURL"
+            name = "CreateCustomURL">
+            <FileRef
+               location = "group:CreateCustomURL.xcodeproj">
+            </FileRef>
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
             <Group
-               location = "group:CallCustomURL"
-               name = "CallCustomURL">
+               location = "group:Sandbox"
+               name = "Sandbox">
                <FileRef
-                  location = "group:CallCustomURL.xcodeproj">
+                  location = "group:CreateCustomURL-Info.plist">
                </FileRef>
                <FileRef
-                  location = "group:Default-568h@2x.png">
+                  location = "group:CreateCustomURL-Prefix.pch">
                </FileRef>
                <Group
-                  location = "group:Sandbox"
-                  name = "Sandbox">
+                  location = "group:en.lproj"
+                  name = "en.lproj">
                   <FileRef
-                     location = "group:CallCustomURL-Info.plist">
-                  </FileRef>
-                  <FileRef
-                     location = "group:CallCustomURL-Prefix.pch">
-                  </FileRef>
-                  <Group
-                     location = "group:en.lproj"
-                     name = "en.lproj">
-                     <FileRef
-                        location = "group:InfoPlist.strings">
-                     </FileRef>
-                  </Group>
-                  <FileRef
-                     location = "group:main.m">
-                  </FileRef>
-                  <FileRef
-                     location = "group:SandboxAppDelegate.h">
-                  </FileRef>
-                  <FileRef
-                     location = "group:SandboxAppDelegate.m">
-                  </FileRef>
-                  <FileRef
-                     location = "group:SandboxViewController.h">
-                  </FileRef>
-                  <FileRef
-                     location = "group:SandboxViewController.m">
+                     location = "group:InfoPlist.strings">
                   </FileRef>
                </Group>
-            </Group>
-            <Group
-               location = "group:CreateCustomURL"
-               name = "CreateCustomURL">
                <FileRef
-                  location = "group:CreateCustomURL.xcodeproj">
+                  location = "group:main.m">
                </FileRef>
                <FileRef
-                  location = "group:Default-568h@2x.png">
+                  location = "group:SandboxAppDelegate.h">
                </FileRef>
-               <Group
-                  location = "group:Sandbox"
-                  name = "Sandbox">
-                  <FileRef
-                     location = "group:CreateCustomURL-Info.plist">
-                  </FileRef>
-                  <FileRef
-                     location = "group:CreateCustomURL-Prefix.pch">
-                  </FileRef>
-                  <Group
-                     location = "group:en.lproj"
-                     name = "en.lproj">
-                     <FileRef
-                        location = "group:InfoPlist.strings">
-                     </FileRef>
-                  </Group>
-                  <FileRef
-                     location = "group:main.m">
-                  </FileRef>
-                  <FileRef
-                     location = "group:SandboxAppDelegate.h">
-                  </FileRef>
-                  <FileRef
-                     location = "group:SandboxAppDelegate.m">
-                  </FileRef>
-                  <FileRef
-                     location = "group:SandboxViewController.h">
-                  </FileRef>
-                  <FileRef
-                     location = "group:SandboxViewController.m">
-                  </FileRef>
-               </Group>
+               <FileRef
+                  location = "group:SandboxAppDelegate.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SandboxViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SandboxViewController.m">
+               </FileRef>
             </Group>
          </Group>
          <Group
-            location = "group:ConnectionExample"
+            location = "group:Sample Application/ConnectionExample"
             name = "ConnectionExample">
             <Group
                location = "group:ConnectionExample"
@@ -2545,7 +2499,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:NSURLConnection-master"
+            location = "group:Sample Application/NSURLConnection-master"
             name = "NSURLConnection-master">
             <Group
                location = "group:NSURLConnection"
@@ -2602,7 +2556,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:NSURLSession-ByteClub"
+            location = "group:Sample Application/NSURLSession-ByteClub"
             name = "NSURLSession-ByteClub">
             <Group
                location = "group:ByteClub"
@@ -6177,7 +6131,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:ImageGrabberAsync"
+            location = "group:Sample Application/ImageGrabberAsync"
             name = "ImageGrabberAsync">
             <Group
                location = "group:ImageGrabber"
@@ -6370,7 +6324,7 @@
          location = "container:"
          name = "CoreGraphics">
          <Group
-            location = "group:CoolTable"
+            location = "group:Sample Application/CoolTable"
             name = "CoolTable">
             <Group
                location = "group:CoolTable"
@@ -6448,7 +6402,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:CoolButton-1"
+            location = "group:Sample Application/CoolButton-1"
             name = "CoolButton-1">
             <Group
                location = "group:CoolButton"
@@ -6511,7 +6465,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:CoolPattern"
+            location = "group:Sample Application/CoolPattern"
             name = "CoolPattern">
             <Group
                location = "group:CoolPattern"
@@ -6568,7 +6522,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:RageTweet"
+            location = "group:Sample Application/RageTweet"
             name = "RageTweet">
             <Group
                location = "group:RageTweet"
@@ -6669,7 +6623,7 @@
          location = "container:"
          name = "CustomizeUI">
          <Group
-            location = "group:custom-UIButton-inManyWays"
+            location = "group:Sample Application/custom-UIButton-inManyWays"
             name = "custom-UIButton-inManyWays">
             <Group
                location = "group:Custom UIButtons"
@@ -6815,7 +6769,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:Picnic-animation"
+            location = "group:Sample Application/Picnic-animation"
             name = "Picnic-animation">
             <FileRef
                location = "group:bug.png">
@@ -6877,54 +6831,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:LayerFun"
-            name = "LayerFun">
-            <FileRef
-               location = "group:BattleMapSplashScreen.png">
-            </FileRef>
-            <Group
-               location = "group:Classes"
-               name = "Classes">
-               <FileRef
-                  location = "group:Common.h">
-               </FileRef>
-               <FileRef
-                  location = "group:Common.m">
-               </FileRef>
-               <FileRef
-                  location = "group:LayerFunAppDelegate.h">
-               </FileRef>
-               <FileRef
-                  location = "group:LayerFunAppDelegate.m">
-               </FileRef>
-               <FileRef
-                  location = "group:LayerFunViewController.h">
-               </FileRef>
-               <FileRef
-                  location = "group:LayerFunViewController.m">
-               </FileRef>
-            </Group>
-            <FileRef
-               location = "group:LayerFun-Info.plist">
-            </FileRef>
-            <FileRef
-               location = "group:LayerFun.xcodeproj">
-            </FileRef>
-            <FileRef
-               location = "group:LayerFun_Prefix.pch">
-            </FileRef>
-            <FileRef
-               location = "group:LayerFunViewController.xib">
-            </FileRef>
-            <FileRef
-               location = "group:main.m">
-            </FileRef>
-            <FileRef
-               location = "group:MainWindow.xib">
-            </FileRef>
-         </Group>
-         <Group
-            location = "group:MonkeyPinch-2"
+            location = "group:Sample Application/MonkeyPinch-2"
             name = "MonkeyPinch-2">
             <Group
                location = "group:MonkeyPinch"
@@ -7003,7 +6910,54 @@
             </Group>
          </Group>
          <Group
-            location = "group:CandySearch"
+            location = "group:Sample Application/LayerFun"
+            name = "LayerFun">
+            <FileRef
+               location = "group:BattleMapSplashScreen.png">
+            </FileRef>
+            <Group
+               location = "group:Classes"
+               name = "Classes">
+               <FileRef
+                  location = "group:Common.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Common.m">
+               </FileRef>
+               <FileRef
+                  location = "group:LayerFunAppDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LayerFunAppDelegate.m">
+               </FileRef>
+               <FileRef
+                  location = "group:LayerFunViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LayerFunViewController.m">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:LayerFun-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:LayerFun.xcodeproj">
+            </FileRef>
+            <FileRef
+               location = "group:LayerFun_Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:LayerFunViewController.xib">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:MainWindow.xib">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Sample Application/CandySearch"
             name = "CandySearch">
             <Group
                location = "group:CandySearch"
@@ -7054,7 +7008,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:SimpleTable-customCell"
+            location = "group:Sample Application/SimpleTable-customCell"
             name = "SimpleTable-customCell">
             <FileRef
                location = "group:MyLaunchImage.png">
@@ -7165,7 +7119,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:CustomTableViewFinal"
+            location = "group:Sample Application/CustomTableViewFinal"
             name = "CustomTableViewFinal">
             <Group
                location = "group:CustomTableView"
@@ -7280,7 +7234,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:CustomNavBar"
+            location = "group:Sample Application/CustomNavBar"
             name = "CustomNavBar">
             <Group
                location = "group:CustomNavBar"
@@ -7356,7 +7310,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:NavigationBarDemo"
+            location = "group:Sample Application/NavigationBarDemo"
             name = "NavigationBarDemo">
             <Group
                location = "group:NavigationBarDemo"
@@ -7471,7 +7425,7 @@
             </Group>
          </Group>
          <Group
-            location = "group:CustomTabApp"
+            location = "group:Sample Application/CustomTabApp"
             name = "CustomTabApp">
             <Group
                location = "group:CustomTabApp"
@@ -7586,7 +7540,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:ABCustomSegueDemo-master"
+            location = "group:Sample Application/ABCustomSegueDemo-master"
             name = "ABCustomSegueDemo-master">
             <Group
                location = "group:ABCustomSegueDemo"
@@ -7685,7 +7639,7 @@
             </Group>
          </Group>
          <Group
-            location = "group:RecipePhoto-CollectionView"
+            location = "group:Sample Application/RecipePhoto-CollectionView"
             name = "RecipePhoto-CollectionView">
             <Group
                location = "group:RecipePhoto"
@@ -7818,7 +7772,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:SidebarDemoEmpty"
+            location = "group:Sample Application/SidebarDemoEmpty"
             name = "SidebarDemoEmpty">
             <Group
                location = "group:SidebarDemo"
@@ -7953,7 +7907,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:StaticTableDemo"
+            location = "group:Sample Application/StaticTableDemo"
             name = "StaticTableDemo">
             <Group
                location = "group:StaticTableDemo"
@@ -8004,7 +7958,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:Tint"
+            location = "group:Sample Application/Tint"
             name = "Tint">
             <Group
                location = "group:Tint"
@@ -8115,7 +8069,7 @@
             </Group>
          </Group>
          <Group
-            location = "group:PageApp"
+            location = "group:Sample Application/PageApp"
             name = "PageApp">
             <Group
                location = "group:PageApp"
