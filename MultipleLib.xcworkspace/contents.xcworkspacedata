@@ -6624,6 +6624,361 @@
          name = "CustomizeUI">
          <Group
             location = "container:"
+            name = "SplitVC_PopoverVC">
+            <Group
+               location = "group:MathMonsters"
+               name = "MathMonsters">
+               <FileRef
+                  location = "group:LeftViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LeftViewController.m">
+               </FileRef>
+               <Group
+                  location = "group:MathMonsters"
+                  name = "MathMonsters">
+                  <FileRef
+                     location = "group:AppDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AppDelegate.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default-568h@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default@2x.png">
+                  </FileRef>
+                  <Group
+                     location = "group:en.lproj"
+                     name = "en.lproj">
+                     <FileRef
+                        location = "group:InfoPlist.strings">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:main.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MainStoryboard_iPad.storyboard">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MathMonsters-Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MathMonsters-Prefix.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Monster.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Monster.m">
+                  </FileRef>
+                  <Group
+                     location = "group:MonsterArt"
+                     name = "MonsterArt">
+                     <FileRef
+                        location = "group:blowgun.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:fire.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LICENSE.txt">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetcatbot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetdogbot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetexplodebot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetfirebot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meeticebot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetminitomatobot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ninjastar.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:smoke.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:sword.png">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:MonsterSelectionDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RightViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RightViewController.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:MathMonsters.xcodeproj">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:MathMonsters-2"
+               name = "MathMonsters-2">
+               <FileRef
+                  location = "group:LeftViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:LeftViewController.m">
+               </FileRef>
+               <Group
+                  location = "group:MathMonsters"
+                  name = "MathMonsters">
+                  <FileRef
+                     location = "group:AppDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AppDelegate.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ColorPickerViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ColorPickerViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default-568h@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default@2x.png">
+                  </FileRef>
+                  <Group
+                     location = "group:en.lproj"
+                     name = "en.lproj">
+                     <FileRef
+                        location = "group:InfoPlist.strings">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:main.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MainStoryboard_iPad.storyboard">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MathMonsters-Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MathMonsters-Prefix.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Monster.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Monster.m">
+                  </FileRef>
+                  <Group
+                     location = "group:MonsterArt"
+                     name = "MonsterArt">
+                     <FileRef
+                        location = "group:blowgun.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:fire.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LICENSE.txt">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetcatbot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetdogbot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetexplodebot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetfirebot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meeticebot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetminitomatobot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ninjastar.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:smoke.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:sword.png">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:MonsterSelectionDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RightViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RightViewController.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:MathMonsters.xcodeproj">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:MathMonsters-3"
+               name = "MathMonsters-3">
+               <Group
+                  location = "group:MathMonsters"
+                  name = "MathMonsters">
+                  <FileRef
+                     location = "group:AppDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AppDelegate.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ColorPickerViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ColorPickerViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default-568h@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default@2x.png">
+                  </FileRef>
+                  <Group
+                     location = "group:en.lproj"
+                     name = "en.lproj">
+                     <FileRef
+                        location = "group:InfoPlist.strings">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:LeftViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:LeftViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:main.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MainStoryboard_iPad.storyboard">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MathMonsters-Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MathMonsters-Prefix.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Monster.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Monster.m">
+                  </FileRef>
+                  <Group
+                     location = "group:MonsterArt"
+                     name = "MonsterArt">
+                     <FileRef
+                        location = "group:blowgun.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:fire.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LICENSE.txt">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetcatbot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetdogbot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetexplodebot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetfirebot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meeticebot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:meetminitomatobot.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ninjastar.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:smoke.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:sword.png">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:MonsterSelectionDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RightViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RightViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Weapon.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Weapon.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:WeaponInputViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:WeaponInputViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:WeaponInputViewController.xib">
+                  </FileRef>
+                  <FileRef
+                     location = "group:WeaponSelectorImageView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:WeaponSelectorImageView.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:MathMonsters.xcodeproj">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "container:"
             name = "ContainerViewCustom">
             <Group
                location = "group:DemoContainer"
