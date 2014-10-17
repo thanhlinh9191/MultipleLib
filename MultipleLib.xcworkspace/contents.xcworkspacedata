@@ -2864,7 +2864,7 @@
          location = "container:"
          name = "CoreData">
          <Group
-            location = "group:RecipeBook"
+            location = "group:Sample Application/RecipeBook"
             name = "RecipeBook">
             <Group
                location = "group:RecipeBook"
@@ -2993,7 +2993,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:MyStore-CoreData"
+            location = "group:Sample Application/MyStore-CoreData"
             name = "MyStore-CoreData">
             <Group
                location = "group:MyStore"
@@ -3053,7 +3053,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:KVO_Observer"
+            location = "group:Sample Application/KVO_Observer"
             name = "KVO_Observer">
             <Group
                location = "group:Lab Color Space Explorer"
@@ -3149,7 +3149,7 @@
             </Group>
          </Group>
          <Group
-            location = "group:Reorder-FRC"
+            location = "group:Sample Application/Reorder-FRC"
             name = "Reorder-FRC">
             <Group
                location = "group:Classes"
@@ -3190,7 +3190,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:fetch_result_controller"
+            location = "group:Sample Application/fetch_result_controller"
             name = "fetch_result_controller">
             <Group
                location = "group:FailedBankCD"
@@ -3250,7 +3250,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:CoreDataMultiContext-notification-context"
+            location = "group:Sample Application/CoreDataMultiContext-notification-context"
             name = "CoreDataMultiContext-notification-context">
             <Group
                location = "group:CoreDataMultiContext"
@@ -3316,7 +3316,7 @@
             </FileRef>
          </Group>
          <Group
-            location = "group:CoreDataMultiContext-parent-context"
+            location = "group:Sample Application/CoreDataMultiContext-parent-context"
             name = "CoreDataMultiContext-parent-context">
             <Group
                location = "group:CoreDataMultiContext"
