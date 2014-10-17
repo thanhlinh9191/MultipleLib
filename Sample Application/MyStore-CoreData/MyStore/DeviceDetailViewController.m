@@ -28,7 +28,18 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
-
+-(void) viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    //fix for status bar overlaps view in ios 7
+    //http://blog.ijasoneverett.com/2013/09/ios-7-bugs-the-status-bar-and-modal-view-controllers/
+    float currentVersion = 7.0;
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= currentVersion)    {
+        UIView *fixbar = [[UIView alloc] init];
+        fixbar.frame = CGRectMake(0, 0, 320, 20);
+        fixbar.backgroundColor = [UIColor colorWithRed:0.973 green:0.973 blue:0.973 alpha:1]; // the default color of iOS7 bacground or any color suits your design
+        [self.view addSubview:fixbar];
+    }
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
