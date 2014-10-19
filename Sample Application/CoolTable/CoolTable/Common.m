@@ -27,7 +27,10 @@ void drawLinearGradient(CGContextRef context, CGRect rect, CGColorRef startColor
 void draw1PxStroke(CGContextRef context, CGPoint startPoint, CGPoint endPoint, CGColorRef color)
 {
     //to mot duong  , 1 pixel phia duoi , hoac ben phai
+    //du 1 pixel o dau mut co toa do lon hon
     CGContextSaveGState(context);
+    //Then you set the line cap of the line. The default is for a line to have a “butt” ending. No, this has nothing to do with a human posterior, instead it means the line ends EXACTLY at the ending point of the line.
+   // This isn’t good for you since you’re starting and ending the line 1/2 point in to fix the stroke behavior. So instead, you set the line cap to have a “square” ending, which makes the line extend 1/2 of the line width beyond the end – in your case 1/2 point – perfect!
     CGContextSetLineCap(context, kCGLineCapSquare);
     CGContextSetStrokeColorWithColor(context, color);
     CGContextSetLineWidth(context, 1.0);
